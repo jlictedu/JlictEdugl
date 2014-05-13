@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="Aqua"
+   kind="dir"/>
+<entry
+   name="Gray"
+   kind="dir"/>
+<entry
+   name="Silvery"
+   kind="dir"/>
+<entry
+   name="icons"
+   kind="dir"/>
+<entry
+   name="ligerui-icons.css"
+   checksum="4846e30761be81fb7fb926d253280e26"
+   last-author="zhu91aizhu"
+   text-time="2013-04-22T13:18:40.833000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

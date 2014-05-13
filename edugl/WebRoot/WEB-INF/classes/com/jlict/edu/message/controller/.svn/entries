@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/message/controller"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageAction.java"
+   checksum="482a59b924c833b68554f7a2cb4d2dce"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:27.927000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

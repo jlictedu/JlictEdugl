@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/images/icon"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="bar-button-over.gif"
+   checksum="dc7b418d7fa4a54328ba1ca9667b1a0c"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:55:10.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.056000Z"/>
+<entry
+   name="checkbox-checked.gif"
+   checksum="23c5938a9b263fb9c8dcb11fe664764f"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:52.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:43.265000Z"/>
+<entry
+   name="checkbox.gif"
+   checksum="6f89cad73948975f0fbf13e5eb15ac5f"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:55:04.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.796000Z"/>
+<entry
+   name="cross.gif"
+   checksum="ab1ede9de6404be6c4b1b240af1fa0e4"
+   last-author="zhu91aizhu"
+   text-time="2012-03-07T09:51:36.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:39.480000Z"/>
+<entry
+   name="icon-close-over.gif"
+   checksum="eae0d4ca356272aa9147143e2177e3f1"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:42.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:35.093000Z"/>
+<entry
+   name="icon-close.gif"
+   checksum="ece82c2164ddae322678bbf94959bb7a"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:46.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.685000Z"/>
+<entry
+   name="icon-down.gif"
+   checksum="3da99e6dd559853a034451a4c62a751c"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:36.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.259000Z"/>
+<entry
+   name="icon-drop.gif"
+   checksum="2b0f3195e74727f6dc304aef19df1890"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:30.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.493000Z"/>
+<entry
+   name="icon-edited.gif"
+   checksum="98111dc828d46e7091b5448c723daaf7"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:26.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:39.018000Z"/>
+<entry
+   name="icon-first.gif"
+   checksum="94f5e37d6f0532e38f9a171791e6bd86"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:18.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:39.940000Z"/>
+<entry
+   name="icon-last.gif"
+   checksum="36fb0bffa39685fef44e484411c71594"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:12.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.669000Z"/>
+<entry
+   name="icon-line.gif"
+   checksum="bca4bcda73328285a1642901ec2a3744"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:54:06.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.516000Z"/>
+<entry
+   name="icon-load.gif"
+   checksum="c99d95dca859c18da194c60972426692"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:53:58.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.710000Z"/>
+<entry
+   name="icon-next.gif"
+   checksum="d1cf4499ae3f28024f59159963d34a83"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:51:56.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.230000Z"/>
+<entry
+   name="icon-prev.gif"
+   checksum="b1531080eeac88ff1fa792d44d34c041"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:51:48.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:43.204000Z"/>
+<entry
+   name="icon-select.gif"
+   checksum="6e1816431c91cc3866a3c3edb0be0fa7"
+   last-author="zhu91aizhu"
+   text-time="2013-04-16T17:06:33.419000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:40.629000Z"/>
+<entry
+   name="icon-sort-asc.gif"
+   checksum="c2b1937c8fe05479d7f842db5f2528c3"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:51:26.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.955000Z"/>
+<entry
+   name="icon-sort-desc.gif"
+   checksum="3ec6ff43443c6bb5651fc05705b99b6f"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:51:18.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:26.787000Z"/>
+<entry
+   name="icon-unselect.gif"
+   checksum="dcc1b10ab8a6fc273405a5cc68904c27"
+   last-author="zhu91aizhu"
+   text-time="2013-04-16T15:26:22.380000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:32.066000Z"/>
+<entry
+   name="icon-up.gif"
+   checksum="aba4ec6181ead8f4acad5822b55e5663"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T05:51:04.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.820000Z"/>
+</wc-entries>

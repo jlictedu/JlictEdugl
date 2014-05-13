@@ -1,0 +1,101 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.dao;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.dao.EvaluationSettingItemVo.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+public class EvaluationSettingItemVo
+{
+	private String id;
+	private String coding;
+	private String name;
+	private String attribute;
+	private String sort;
+	
+	/**
+	 * @return the id
+	 */
+	public String getId()
+	{
+		return id;
+	}
+	
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(String id)
+	{
+		this.id = id;
+	}
+	
+	/**
+	 * @return the coding
+	 */
+	public String getCoding()
+	{
+		return coding;
+	}
+	
+	/**
+	 * @param coding the coding to set
+	 */
+	public void setCoding(String coding)
+	{
+		this.coding = coding;
+	}
+	
+	/**
+	 * @return the name
+	 */
+	public String getName()
+	{
+		return name;
+	}
+	
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	/**
+	 * @return the attribute
+	 */
+	public String getAttribute()
+	{
+		return attribute;
+	}
+	
+	/**
+	 * @param attribute the attribute to set
+	 */
+	public void setAttribute(String attribute)
+	{
+		this.attribute = attribute;
+	}
+	
+	/**
+	 * @return the sort
+	 */
+	public String getSort()
+	{
+		return sort;
+	}
+	
+	/**
+	 * @param sort the sort to set
+	 */
+	public void setSort(String sort)
+	{
+		this.sort = sort;
+	}
+}

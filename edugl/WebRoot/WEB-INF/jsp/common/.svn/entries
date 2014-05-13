@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/common"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="common.jsp"
+   checksum="e8e29346f05afc3475189fdcdb48a668"
+   last-author="zhu91aizhu"
+   text-time="2013-06-25T10:10:00.180000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.jlict.edu.teachingQuality.dao.TeachEvaluateTeacherDao;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.service.TeachEvaluateTeacherService.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+@Service
+public class TeachEvaluateTeacherService
+{
+	private TeachEvaluateTeacherDao dao;
+	
+	/**
+	 * 方法名： getYears
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午1:14:32
+	 * 描述：TODO(这里用一句话描述这个方法的作用)
+	 * 参数：para 说明：TODO
+	 * 返回类型 List<String>
+	 */
+	public List<String> getYears(String userId)
+	{
+		return this.dao.getYears(userId);
+	}
+	
+	/**
+	 * 方法名： getCourses
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午1:14:27
+	 * 描述：TODO(这里用一句话描述这个方法的作用)
+	 * 参数：para 说明：TODO
+	 * 返回类型 List<String>
+	 */
+	public List<String> getCourses(String userId)
+	{
+		return this.dao.getCourses(userId);
+	}
+}

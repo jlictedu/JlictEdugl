@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/teachingQuality/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EvaluateCourseItemRowMapper.java"
+   checksum="fd6bdfe05e54562c338c9eb23582ba37"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T07:11:53.111000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EvaluateCourseItemVo.java"
+   checksum="31db00467a272bd0c427f4d3b25bad69"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T07:02:19.341000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EvaluationSettingItemRow.java"
+   checksum="d887d7ae34d8be3b8a584226da1824eb"
+   last-author="zhu91aizhu"
+   text-time="2014-02-22T06:04:33.068000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EvaluationSettingItemVo.java"
+   checksum="d16a2fd39e947864d1adbb1de7bcc11a"
+   last-author="zhu91aizhu"
+   text-time="2014-02-22T05:58:37.939000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="SettingItemRowMapper.java"
+   checksum="4e93eb70dedfb5686b5297924f87cf0c"
+   last-author="zhu91aizhu"
+   text-time="2014-01-19T07:07:58.324000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="SettingItemVo.java"
+   checksum="e4889b3070cf5cbba84201cb94f96d63"
+   last-author="zhu91aizhu"
+   text-time="2014-01-19T07:02:35.113000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateDirectorDao.java"
+   checksum="485fe23f586cb19c8cf5f309cca57192"
+   last-author="zhu91aizhu"
+   text-time="2014-02-22T07:25:26.824000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateStudentDao.java"
+   checksum="6d0ea583a8ec0aafc356167355ea2e7f"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T07:37:50.899000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateTeacherDao.java"
+   checksum="164f6ab2c62f67adb1bdce1c2ceef976"
+   last-author="zhu91aizhu"
+   text-time="2014-01-19T05:14:09.390000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachQualityStudentVo.java"
+   checksum="7d90e08e5496b8b80430c9d7ac8b5ea3"
+   last-author="zhu91aizhu"
+   text-time="2014-01-14T08:23:09.085000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachQualityVo.java"
+   checksum="57b03d475c63b83bd9aadbed9d718406"
+   last-author="zhu91aizhu"
+   text-time="2014-01-14T08:59:33.090000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

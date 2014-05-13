@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/message"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="inbox-read.jsp"
+   checksum="57706b4266ac1c24af7569876c27ea05"
+   last-author="zhu91aizhu"
+   text-time="2014-02-24T03:44:50.754000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="inbox.jsp"
+   checksum="66bb1c135533e69a84487e2248b5fec3"
+   last-author="zhu91aizhu"
+   text-time="2013-07-22T08:38:56.471000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="outbox-read.jsp"
+   checksum="9358ea27d8830a4373ebdaaed3dbd29f"
+   last-author="zhu91aizhu"
+   text-time="2013-08-08T03:53:55.961000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="outbox.jsp"
+   checksum="9a6f60106cb742baf4e3a8767a65032b"
+   last-author="zhu91aizhu"
+   text-time="2013-07-02T06:55:22.746000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="send-init.jsp"
+   checksum="3fcb7e1b1357b3e1790f78970ec32265"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T10:23:35.372000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

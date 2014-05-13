@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/lib"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ant.jar"
+   checksum="ef62988c744551fb51f330eaa311bfc0"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T12:48:05.916000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.711000Z"/>
+<entry
+   name="aopalliance.jar"
+   checksum="04177054e180d09e3998808efa0401c7"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:31.982000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.546000Z"/>
+<entry
+   name="aspectjweaver.jar"
+   checksum="06464d01316d851e8dac161847e98f4c"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.279000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:40.616000Z"/>
+<entry
+   name="cglib-nodep-2.1_3.jar"
+   checksum="db0e461169599af137eb24478c5292ce"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.575000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.828000Z"/>
+<entry
+   name="commons-beanutils-1.8.3.jar"
+   checksum="b45be74134796c89db7126083129532f"
+   last-author="zhu91aizhu"
+   text-time="2012-10-16T08:09:39.893000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.263000Z"/>
+<entry
+   name="commons-beanutils.jar"
+   checksum="0f18acf5fa857f9959675e14d901a7ce"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.528000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.882000Z"/>
+<entry
+   name="commons-collections-3.1.jar"
+   checksum="d1dcb0fbee884bb855bb327b8190af36"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.450000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.915000Z"/>
+<entry
+   name="commons-collections-3.2.1.jar"
+   checksum="13bc641afd7fd95e09b260f69c1e4c91"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.170000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.663000Z"/>
+<entry
+   name="commons-dbcp-1.4.jar"
+   checksum="b004158fab904f37f5831860898b3cd9"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.092000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.905000Z"/>
+<entry
+   name="commons-fileupload-1.2.2.jar"
+   checksum="a0ad9550a7062ddb6528d8725c8230dd"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.185000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.360000Z"/>
+<entry
+   name="commons-fileupload.jar"
+   checksum="1112fc5e1e8be8d9c76c2bbe995eacc6"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.216000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.613000Z"/>
+<entry
+   name="commons-io-2.4.jar"
+   checksum="7f97854dc04c119d461fed14f5d8bb96"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.107000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.322000Z"/>
+<entry
+   name="commons-lang.jar"
+   checksum="51591549f1662a64543f08a1d4a0cf87"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.185000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.127000Z"/>
+<entry
+   name="commons-logging-1.0.4.jar"
+   checksum="d9d01d5aa4e2959cba466ad8e8f62d45"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.497000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:26.754000Z"/>
+<entry
+   name="commons-pool-1.6.jar"
+   checksum="5ca02245c829422176d23fa530e919cc"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.419000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.508000Z"/>
+<entry
+   name="dom4j.jar"
+   checksum="85e3e7dfd9d039da0b8ea0a46129323f"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.045000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.855000Z"/>
+<entry
+   name="ezmorph-1.0.5.jar"
+   checksum="db24c70f2754d09e396942c5614d426a"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.404000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:42.473000Z"/>
+<entry
+   name="ezmorph-1.0.6.jar"
+   checksum="1fa113c6aacf3a01af1449df77acd474"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.404000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.466000Z"/>
+<entry
+   name="jackson-all-1.9.4.jar"
+   checksum="500f3fe3200e11ae1fd37f63f63e1446"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.294000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.097000Z"/>
+<entry
+   name="jsf-api.jar"
+   checksum="da80ee321ff31a72e6ea330fb035bed8"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.497000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.080000Z"/>
+<entry
+   name="jsf-impl.jar"
+   checksum="94fe4df9e4f7120c20bcdb58656edc3a"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.076000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.877000Z"/>
+<entry
+   name="json-lib-2.2.2-jdk13.jar"
+   checksum="7b2121e1f3bb9b91f48fe5b0f4269ca8"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.154000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.864000Z"/>
+<entry
+   name="json-lib-jdk1.5.jar"
+   checksum="862b64351f540618b34a26f5b6fd3d47"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.310000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.856000Z"/>
+<entry
+   name="jstl-1.2.jar"
+   checksum="51e15f798e69358cb893e38c50596b9b"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.341000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.124000Z"/>
+<entry
+   name="jxl.jar"
+   checksum="0bc3da2f9299a1801a585f7adc99e5ba"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.232000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.383000Z"/>
+<entry
+   name="livetribe-jsr223-2.0.6.jar"
+   checksum="c47cb212dd8e2345b5e08e24b11d9af6"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.326000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.929000Z"/>
+<entry
+   name="log4j-1.2.11.jar"
+   checksum="1f441dc337a302406bc697ec1b57ac40"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.248000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.520000Z"/>
+<entry
+   name="log4j-1.2.13.jar"
+   checksum="52169b4a318e3246483f39f62b84b948"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.248000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:42.921000Z"/>
+<entry
+   name="mybatis-3.0.6.jar"
+   checksum="8b940d3da10911076009021d7055afbe"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.357000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.205000Z"/>
+<entry
+   name="ojdbc14.jar"
+   checksum="219e4c6f2ba5d066fedfd78697847054"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.138000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:43.237000Z"/>
+<entry
+   name="org.springframework.aop-3.1.0.RELEASE.jar"
+   checksum="6c89550de11192e749fac03993dfdf63"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.544000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.241000Z"/>
+<entry
+   name="org.springframework.asm-3.1.0.RELEASE.jar"
+   checksum="8bae29ef05329caf530d466adab2479a"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.560000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.162000Z"/>
+<entry
+   name="org.springframework.beans-3.1.0.RELEASE.jar"
+   checksum="4e788ce17a98bd6b905b78cdbc8a022d"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:31.998000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.992000Z"/>
+<entry
+   name="org.springframework.context-3.1.0.RELEASE.jar"
+   checksum="333cc37795800e79678aefa99431c192"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:31.967000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:26.815000Z"/>
+<entry
+   name="org.springframework.core-3.1.0.RELEASE.jar"
+   checksum="4ae0b0d582d58ee5a8c6b595b1c64daf"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.014000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.850000Z"/>
+<entry
+   name="org.springframework.expression-3.1.0.RELEASE.jar"
+   checksum="be88a6e974665bf75ed609e03c60d612"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.060000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:26.737000Z"/>
+<entry
+   name="org.springframework.jdbc-3.1.0.RELEASE.jar"
+   checksum="ab4ba77c583873958b6bf6d98fc00390"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.107000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.141000Z"/>
+<entry
+   name="org.springframework.transaction-3.1.0.RELEASE.jar"
+   checksum="af656488023007ea99a3180547f859ee"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:31.982000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.925000Z"/>
+<entry
+   name="org.springframework.web-3.1.0.RELEASE.jar"
+   checksum="84604a11a7ff093031845787d04867e9"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.513000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.794000Z"/>
+<entry
+   name="org.springframework.web.servlet-3.1.0.RELEASE.jar"
+   checksum="a972eab0b31ec3dbad59c99a4d9f56f6"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.388000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:32.634000Z"/>
+<entry
+   name="persistence-api-1.0.jar"
+   checksum="aeb56ad8210370d0cd5c0e995eb0d16c"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.466000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.536000Z"/>
+<entry
+   name="poi-3.8-20120326.jar"
+   checksum="5c915f48922046c71121fd7021aa23cb"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.451000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.070000Z"/>
+<entry
+   name="poi-examples-3.8-20120326.jar"
+   checksum="c62a0d6b6b6bde34a880fe4e1da553a3"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.358000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.397000Z"/>
+<entry
+   name="poi-excelant-3.8-20120326.jar"
+   checksum="04e9e931f9aa21918ddb0d233f2f67ee"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.342000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.299000Z"/>
+<entry
+   name="poi-ooxml-3.8-20120326.jar"
+   checksum="8f147b248f078799c24c8714f185b1a8"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.420000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.414000Z"/>
+<entry
+   name="poi-ooxml-schemas-3.8-20120326.jar"
+   checksum="7ebcffdc4d82b2b8cbc6464d4543cd07"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.404000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.443000Z"/>
+<entry
+   name="poi-scratchpad-3.8-20120326.jar"
+   checksum="7427b6b9e53dcee57d382ba022efc3be"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.280000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.291000Z"/>
+<entry
+   name="smartupload.jar"
+   checksum="ced62de8d01954056d0365aa812e4459"
+   last-author="zhu91aizhu"
+   text-time="2012-09-17T02:58:22.672000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.092000Z"/>
+<entry
+   name="spring-orm-3.0.3.RELEASE.jar"
+   checksum="4a00e9e0592fd2b3a96f43568b97e5df"
+   last-author="zhu91aizhu"
+   text-time="2012-09-13T11:22:32.372000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.951000Z"/>
+<entry
+   name="stax-api-1.0.1.jar"
+   checksum="7d436a53c64490bee564c576babb36b4"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.326000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.550000Z"/>
+<entry
+   name="webreport.jar"
+   checksum="c51d541ab289ecb776562c88b42cc21f"
+   last-author="zhu91aizhu"
+   text-time="2012-10-26T01:40:13.807000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.656000Z"/>
+<entry
+   name="xmlbeans-2.3.0.jar"
+   checksum="64b05e7adad68fa65d02a8b6daa64afb"
+   last-author="zhu91aizhu"
+   text-time="2012-10-25T00:33:48.311000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.341000Z"/>
+</wc-entries>

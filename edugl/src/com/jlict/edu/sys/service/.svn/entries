@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/sys/service"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="LoginService.java"
+   checksum="f3e1fa061b18067dab60c07310a663dc"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:51:00.509000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="UserService.java"
+   checksum="f4199a2ab52599a8b8725f30d1530ef5"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:51:00.517000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

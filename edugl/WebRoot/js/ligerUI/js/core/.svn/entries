@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/js/core"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="base.js"
+   checksum="d04151fe3a9102eacd16e24f60043fb2"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:16.149000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="inject.js"
+   checksum="4278e5c6684537b412ea930d4b9c3956"
+   last-author="zhu91aizhu"
+   text-time="2013-05-01T08:36:49.480000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

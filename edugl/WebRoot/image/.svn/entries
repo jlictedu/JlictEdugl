@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/image"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="error_01.gif"
+   checksum="e77acae697336dc384486433396d198c"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.439000Z"/>
+<entry
+   name="error_02.gif"
+   checksum="98b9aae3662a56c54bedea36578fd4af"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.939000Z"/>
+<entry
+   name="error_03.gif"
+   checksum="34f4a6749f8d330f6e599a4113580d1d"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.496000Z"/>
+<entry
+   name="error_04.gif"
+   checksum="d8ea2edf70f899e84b0c1a33fc21f33a"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.077000Z"/>
+<entry
+   name="error_05.gif"
+   checksum="e77acae697336dc384486433396d198c"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:42.284000Z"/>
+<entry
+   name="loading.gif"
+   checksum="b1400fb7f115b58dd9dcdec66eb4510d"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.462000Z"/>
+<entry
+   name="loginError_01.jpg"
+   checksum="667d19497bdeebc2707edcf123172fe4"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:26.896000Z"/>
+<entry
+   name="loginError_02.jpg"
+   checksum="b26bb3637c8d0b903a748c0a8978102d"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.111000Z"/>
+<entry
+   name="loginError_03.jpg"
+   checksum="1adf01f5e30425cea0556d272222d05e"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.510000Z"/>
+<entry
+   name="loginError_04.jpg"
+   checksum="544dbe0ec970e91d662a5d0fcce7b90d"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.500000Z"/>
+<entry
+   name="loginError_05.jpg"
+   checksum="0a82c4bc8b14ab6fd98b1e489cbc1db7"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.652000Z"/>
+<entry
+   name="main_01.jpg"
+   checksum="dd8e6710d0897b802cea94579bf40908"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.320000Z"/>
+<entry
+   name="main_02.jpg"
+   checksum="6c8aa8d39cb61889490f7d438bee9058"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.911000Z"/>
+<entry
+   name="main_03.jpg"
+   checksum="3d5002b41c4467557b4874d7d55464ba"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.807000Z"/>
+<entry
+   name="main_04.jpg"
+   checksum="c9d64f509808c88cfa0c0b0d21c8d1b4"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:42.820000Z"/>
+<entry
+   name="main_05.jpg"
+   checksum="f123373d99f0828bc57f1b9a5b4eb433"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:35.915000Z"/>
+<entry
+   name="main_06.jpg"
+   checksum="619cc3c11e2e08cbf66abac56b368d09"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.365000Z"/>
+<entry
+   name="main_07.jpg"
+   checksum="a2c7f2bf0649148b27722f7e7218d121"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:43.189000Z"/>
+<entry
+   name="main_08.jpg"
+   checksum="8aaf89f35fe4a70d2fff3f478de472b7"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.194000Z"/>
+<entry
+   name="main_09.jpg"
+   checksum="72661b9d0fead0108b1de9ca8dad89ff"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:39.771000Z"/>
+<entry
+   name="main_10.jpg"
+   checksum="271fd42ba445ee9033c977b7c78286b7"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:40.501000Z"/>
+<entry
+   name="tab.png"
+   checksum="49638cc5606b1de5636aeb81282ef692"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T05:02:49.841000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.180000Z"/>
+</wc-entries>

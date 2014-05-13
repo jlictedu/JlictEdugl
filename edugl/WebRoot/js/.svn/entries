@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="common.js"
+   checksum="aa0b9e031964d64cbd375cf9d3221c01"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T06:23:11.959000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="jquery"
+   kind="dir"/>
+<entry
+   name="jquery-validation"
+   kind="dir"/>
+<entry
+   name="json2.js"
+   checksum="981def6223f0cf1cd0b7c8c75b384678"
+   last-author="zhu91aizhu"
+   text-time="2013-04-21T10:20:19.014000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerUI"
+   kind="dir"/>
+<entry
+   name="map.js"
+   checksum="890836141ec90f764987d4f2fd0fdeff"
+   last-author="zhu91aizhu"
+   text-time="2013-07-31T12:35:58.227000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

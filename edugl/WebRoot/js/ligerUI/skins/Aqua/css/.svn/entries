@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/css"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-all.css"
+   checksum="8d2799f78a6b6ce3db8217cc45b7a60c"
+   last-author="zhu91aizhu"
+   text-time="2011-05-28T08:26:04.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-common.css"
+   checksum="ef293890e83e3a623cd23fae89c78b79"
+   last-author="zhu91aizhu"
+   text-time="2013-05-08T03:42:03.554000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-dialog.css"
+   checksum="880fb821f55570828705e043d4978e62"
+   last-author="zhu91aizhu"
+   text-time="2013-05-02T03:48:59.142000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-form.css"
+   checksum="8a926d884cd95d6cde3cd112b0feef71"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T04:57:42.712000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-grid.css"
+   checksum="f402650dd76cec983a3e4927fd76894e"
+   last-author="zhu91aizhu"
+   text-time="2013-05-02T09:09:31.080000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-layout.css"
+   checksum="2d8ef944dc6c5107506409a7fdd304fc"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:00:30.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-menu.css"
+   checksum="4b3800820d6aef7851bd3bd8e675ffc2"
+   last-author="zhu91aizhu"
+   text-time="2013-04-22T13:13:23.435000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-tab.css"
+   checksum="bb1d0687b1dfc4a08fdf9d4e5e3ee8df"
+   last-author="zhu91aizhu"
+   text-time="2012-03-01T06:42:58.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerui-tree.css"
+   checksum="e10e128dd6fff993d6ad2d01dd87736c"
+   last-author="zhu91aizhu"
+   text-time="2012-03-01T08:24:26.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

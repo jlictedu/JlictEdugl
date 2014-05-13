@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/teachingQuality/controller"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateDirectorAction.java"
+   checksum="b1d9d657258776d917a14f29913309fb"
+   last-author="zhu91aizhu"
+   text-time="2014-02-24T02:34:05.245000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateStudentAction.java"
+   checksum="3091736dbfae3fddcb45dc60d8ec75ae"
+   last-author="zhu91aizhu"
+   text-time="2014-01-29T05:48:53.823000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateTeacherAction.java"
+   checksum="f9209db8de3fc5955c6c2d87c42cd55c"
+   last-author="zhu91aizhu"
+   text-time="2014-01-29T05:34:58.800000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

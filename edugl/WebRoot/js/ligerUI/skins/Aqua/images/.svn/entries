@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/images"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="controls"
+   kind="dir"/>
+<entry
+   name="dateeditor"
+   kind="dir"/>
+<entry
+   name="form"
+   kind="dir"/>
+<entry
+   name="grid"
+   kind="dir"/>
+<entry
+   name="icon"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="panel"
+   kind="dir"/>
+<entry
+   name="tree"
+   kind="dir"/>
+<entry
+   name="win"
+   kind="dir"/>
+</wc-entries>

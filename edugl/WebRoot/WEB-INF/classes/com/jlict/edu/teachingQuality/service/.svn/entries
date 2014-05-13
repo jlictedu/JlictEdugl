@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/teachingQuality/service"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateDirectorService.java"
+   checksum="f8ac648c9567b42582b78097f25cbe7d"
+   last-author="zhu91aizhu"
+   text-time="2014-02-24T02:27:32.569000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateStudentService.java"
+   checksum="027a942cc949e4b4d3a098dbaef32ba0"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T07:38:33.383000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeachEvaluateTeacherService.java"
+   checksum="3bd3869d74517908be6c916e684d60e7"
+   last-author="zhu91aizhu"
+   text-time="2014-01-19T05:14:33.445000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

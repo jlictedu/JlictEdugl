@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/images/panel"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="bar-bg.gif"
+   checksum="82afd332f1d85993814f094a98dd273f"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:23:26.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.222000Z"/>
+<entry
+   name="header-bg.gif"
+   checksum="ce0e3b62437a02c182a0c0d5a779dc88"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:07:28.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.624000Z"/>
+<entry
+   name="header-bg.jpg"
+   checksum="059eb2c14d15682e3490050ca55b5a49"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:07:20.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.493000Z"/>
+<entry
+   name="header2-bg.jpg"
+   checksum="dd564cb5059642bf03d28027d92fc963"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:06:00.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.282000Z"/>
+<entry
+   name="panel-btn-l.gif"
+   checksum="432603495c4845989af81ef9d2100966"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:07:06.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.009000Z"/>
+<entry
+   name="panel-btn-r.gif"
+   checksum="c4244fb89e9dcd83713b78d4a6601db5"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:07:00.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.578000Z"/>
+<entry
+   name="panel-btn.gif"
+   checksum="1844d83a5d2cf3d051f888e75f84323f"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:07:10.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.334000Z"/>
+<entry
+   name="panel-header.gif"
+   checksum="a61ce4b8c5f64d22810bcd0c1d314b83"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:06:54.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:34.225000Z"/>
+<entry
+   name="panel-menu-item-down.gif"
+   checksum="ffb0dd91d3291e5bf170829b9c86ee20"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:23:44.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.868000Z"/>
+<entry
+   name="panel-menu.gif"
+   checksum="770a0da3b3e013b67b1e782bf4473470"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:06:38.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.521000Z"/>
+<entry
+   name="panel-toolbar.gif"
+   checksum="a35897c6be3a7861cd54c3fba30b8b43"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:23:38.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.174000Z"/>
+<entry
+   name="panel-tools.gif"
+   checksum="e8c6fc394bb4dae6aafd6d87c47399bb"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:23:32.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.376000Z"/>
+</wc-entries>

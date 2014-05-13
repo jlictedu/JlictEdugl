@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/sys/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="LoginDao.java"
+   checksum="140194ab22686202102d558d089143c8"
+   last-author="zhu91aizhu"
+   text-time="2014-01-14T08:13:24.379000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MenuDao.java"
+   checksum="0c4556c64520fd5b6703ba5cb9265d80"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T06:05:25.257000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="SysMenuRowMapper.java"
+   checksum="3a788b3e0db8b3a788f4c9e2619acac3"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:41.662000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="SysMenuVo.java"
+   checksum="6fd8cf5856ad23ac60a5fc57ba3a181e"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:41.719000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="UserDao.java"
+   checksum="e560d73cde030aa1e37a1b0201e3c82a"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:41.690000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="UserVo.java"
+   checksum="53dfbe33731ef6e2e6d639077b6bb699"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:41.683000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="UserVoRowMapper.java"
+   checksum="642befd86a803368284bf27dff586beb"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T06:46:45.162000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

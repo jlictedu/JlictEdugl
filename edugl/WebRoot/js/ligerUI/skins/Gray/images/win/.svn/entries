@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Gray/images/win"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="dialog-winbtns.gif"
+   checksum="ceb476f9294c00fc39c9600e08bca576"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T16:15:52.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.029000Z"/>
+<entry
+   name="dialogbtn.gif"
+   checksum="b51bd40b92273c44a670ba4095113e5d"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T16:05:26.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:41.573000Z"/>
+<entry
+   name="dialogicon.gif"
+   checksum="08a28cea089d5a9a331f7cf46345136a"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T15:42:04.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.638000Z"/>
+</wc-entries>

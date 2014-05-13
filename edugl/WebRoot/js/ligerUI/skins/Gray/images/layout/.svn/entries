@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Gray/images/layout"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="accordion-header.gif"
+   checksum="d0b568ceec976ccbe034d3084c59417e"
+   last-author="zhu91aizhu"
+   text-time="2012-03-01T06:35:04.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.175000Z"/>
+<entry
+   name="icon-close-over.gif"
+   checksum="9540dc281f810096cd1a74e618142dba"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:59:36.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.566000Z"/>
+<entry
+   name="icon-close.gif"
+   checksum="e14ec9e6c6736672ab6fefc509981c11"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:59:20.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.426000Z"/>
+<entry
+   name="layout-header.gif"
+   checksum="83872fe1e266ba0ba81dec40688e20a8"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T12:31:18.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.454000Z"/>
+<entry
+   name="tabs-bg.gif"
+   checksum="f19c63d0000e8315f706d6f1af1c156d"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:40:58.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.005000Z"/>
+<entry
+   name="tabs-item-bg.gif"
+   checksum="9dafc2b6ade80c20ed25f0997eec092d"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:36:50.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:40.927000Z"/>
+<entry
+   name="tabs-item-left-bg.gif"
+   checksum="b420922bb87d0684005686e07fba6a7e"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:35:56.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.990000Z"/>
+<entry
+   name="tabs-item-left-selected.gif"
+   checksum="36791ff231afd88087b8458826a61ab8"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:39:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.691000Z"/>
+<entry
+   name="tabs-item-right-bg.gif"
+   checksum="6dcce7ef1ab4d0f69b2bc7fdf80c87ba"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:36:22.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.629000Z"/>
+<entry
+   name="tabs-item-right-selected.gif"
+   checksum="1c21ac37a263e4f8e0c19fc11cc960a3"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:39:42.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.595000Z"/>
+<entry
+   name="tabs-item-selected.gif"
+   checksum="dc0f49bcdaa018374a844878266027ed"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T13:52:42.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:32.753000Z"/>
+<entry
+   name="togglebar.gif"
+   checksum="a9da52576451a82923f28ca2609c1b5d"
+   last-author="zhu91aizhu"
+   text-time="2012-03-01T07:17:12.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.386000Z"/>
+</wc-entries>

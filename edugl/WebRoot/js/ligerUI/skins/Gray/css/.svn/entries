@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Gray/css"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="all.css"
+   checksum="f23fd324d53ef2f6c85b4be48cf4c8a7"
+   last-author="zhu91aizhu"
+   text-time="2012-02-29T14:47:12.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="common.css"
+   checksum="dd5c9e10d40aeaab5886f1ec22e48d73"
+   last-author="zhu91aizhu"
+   text-time="2013-04-18T02:53:24.854000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="dialog.css"
+   checksum="24b18677339c660b02927d3c3602a8b6"
+   last-author="zhu91aizhu"
+   text-time="2013-04-18T03:20:47.138000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="form.css"
+   checksum="eefe100e7959f13de63254f15e2e39a8"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T04:38:00.612000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="grid.css"
+   checksum="13645c34bc8356bddca1cc055ee49a7b"
+   last-author="zhu91aizhu"
+   text-time="2013-05-02T09:30:38.246000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="layout.css"
+   checksum="dd95fcda58792b1edb72236aae390eb1"
+   last-author="zhu91aizhu"
+   text-time="2012-03-11T11:25:32.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="tab.css"
+   checksum="5e41417e5a7f076b30856c7a614d0142"
+   last-author="zhu91aizhu"
+   text-time="2012-03-01T03:57:20.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

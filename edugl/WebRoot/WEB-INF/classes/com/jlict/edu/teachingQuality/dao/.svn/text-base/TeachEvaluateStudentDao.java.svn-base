@@ -1,0 +1,80 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.dao;
+
+import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.stereotype.Repository;
+
+import com.jlict.edu.core.dao.BaseDao;
+import com.jlict.edu.core.dao.PagingJson;
+import com.jlict.edu.core.util.ResultJson;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.dao.TeachEvaluateStudentDao.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+@Repository
+public class TeachEvaluateStudentDao extends BaseDao
+{
+	/**
+	 * 方法名： evaluateSubmit
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月14日 下午5:44:29
+	 * 描述：TODO(这里用一句话描述这个方法的作用)
+	 * 参数：para 说明：TODO
+	 * 返回类型 ResultJson
+	 */
+	public ResultJson evaluateSubmit(TeachQualityVo tqVo, TeachQualityStudentVo tqsVo)
+	{
+		ResultJson result = new ResultJson();
+		
+		try
+		{
+			String sql = "INSERT INTO T_TEACH_QUALITY_STU(ID, STU_ID, TA_EI1, TA_EI2, TC_EI1, TC_EI2, TC_EI3, TC_EI4, TC_EI5, TM_EI1, TM_EI2, TM_EI3, TE_EI1, IDEA) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+			Object[] para = new Object[]{tqsVo.getId(), tqsVo.getStu_id(), tqsVo.getTa_ei1(), tqsVo.getTa_ei2(),
+					tqsVo.getTc_ei1(), tqsVo.getTc_ei2(), tqsVo.getTc_ei3(), tqsVo.getTc_ei4(), tqsVo.getTc_ei5(),
+					tqsVo.getTm_ei1(), tqsVo.getTm_ei2(), tqsVo.getTm_ei3(), tqsVo.getTe_ei1(), tqsVo.getIdea()};
+			
+			this.jdbcTemplate.update(sql, para);
+			
+			sql = "INSERT INTO T_TEACH_QUALITY(ID, EVALUATE_ID, DATE_TIME, EVALUATE_CATEGORY, EVALUATE_SETTING_ID) VALUES(?, ?, ?, ?, ?)";
+			para = new Object[]{tqVo.getId(), tqVo.getEvaluate_id(), tqVo.getDate_time(), tqVo.getEvaluate_category(), tqVo.getEvaluate_setting_id()};
+			
+			this.jdbcTemplate.update(sql, para);
+			
+			result.setResultCode(1);
+			result.setText("课堂教学质量评估提交成功！");
+		}
+		catch(EmptyResultDataAccessException e)
+		{
+			result.setResultCode(0);
+			result.setText("课堂教学质量评估提交失败！");
+			
+			return result;
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * 方法名： initCourses
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月17日 下午3:37:49
+	 * 描述：TODO(这里用一句话描述这个方法的作用)
+	 * 参数：para 说明：TODO
+	 * 返回类型 PagingJson
+	 */
+	public PagingJson initCourses(int pageIndex, int pageSize)
+	{
+		String countSql = "";
+		String listSql = "";
+		Object[] para = new Object[]{};
+		
+		return this.queryPagingList(countSql, listSql, para, pageIndex, pageSize);
+	}
+}

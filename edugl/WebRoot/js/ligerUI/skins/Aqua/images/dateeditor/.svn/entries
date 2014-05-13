@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/images/dateeditor"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="date.gif"
+   checksum="79d677089d343e6c6d6c34a6bd391ea7"
+   last-author="zhu91aizhu"
+   text-time="2013-05-08T04:20:52.590000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.772000Z"/>
+<entry
+   name="icon-first.gif"
+   checksum="72ac32ec0d67943d0db805ee33b77687"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T02:54:38.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:31.555000Z"/>
+<entry
+   name="icon-last.gif"
+   checksum="1168b1056b6a02c7e75e06e6d99d1e53"
+   last-author="zhu91aizhu"
+   text-time="2008-07-17T19:16:32.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.048000Z"/>
+<entry
+   name="icon-next.gif"
+   checksum="20a01bf1f165072b52b65d472ec3285a"
+   last-author="zhu91aizhu"
+   text-time="2008-07-17T19:16:32.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.611000Z"/>
+<entry
+   name="icon-prev.gif"
+   checksum="90b93afdbbc628d727b65dcec0b8dcb6"
+   last-author="zhu91aizhu"
+   text-time="2008-07-17T19:16:32.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:32.393000Z"/>
+</wc-entries>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/subscription"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="materialAddApply.jsp"
+   revision="11"
+   checksum="07a05ceef9afa889140f564901e646f3"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:22:04.753000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialDeanFirstApproval.jsp"
+   revision="15"
+   checksum="84ef8779922ba9aa2d26e802173b9f0a"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:08:25.431000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2014-03-03T15:09:46.216000Z"/>
+<entry
+   name="materialDeanFirstPanel.jsp"
+   revision="15"
+   checksum="c506a7ed33d0642995e3f8d6e12c18e0"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:07:52.615000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2014-03-03T15:09:46.216000Z"/>
+<entry
+   name="materialDeanFirstReadApproval.jsp"
+   revision="15"
+   checksum="eba85d360bcc3aa8398ddbdbaa2e596b"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:08:12.378000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2014-03-03T15:09:46.216000Z"/>
+<entry
+   name="materialDeanSelfApproval.jsp"
+   revision="5"
+   checksum="c36aa3a54d631b36b48f0e602e411d67"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:27:13.547000Z"
+   committed-rev="5"
+   kind="file"
+   committed-date="2014-03-02T07:31:04.883000Z"/>
+<entry
+   name="materialDeanSelfPanel.jsp"
+   revision="16"
+   checksum="dc0c0c3e4fad824aefd9b520cf9878c7"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:10:32.096000Z"
+   committed-rev="16"
+   kind="file"
+   committed-date="2014-03-03T15:22:10.296000Z"/>
+<entry
+   name="materialDeanSelfReadApproval.jsp"
+   revision="5"
+   checksum="bedcc1bf8058933b1b61cc50e6d165fd"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:25:45.762000Z"
+   committed-rev="5"
+   kind="file"
+   committed-date="2014-03-02T07:31:04.883000Z"/>
+<entry
+   name="materialDirectorFirstApproval.jsp"
+   revision="13"
+   checksum="58ba3a53ae401d3a8588c5535815f142"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T14:45:29.618000Z"
+   committed-rev="13"
+   kind="file"
+   committed-date="2014-03-03T14:46:54.883000Z"/>
+<entry
+   name="materialDirectorFirstPanel.jsp"
+   revision="14"
+   checksum="accc709f291739919733174862286edc"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T14:53:44.184000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2014-03-03T14:54:32.655000Z"/>
+<entry
+   name="materialDirectorFirstReadApproval.jsp"
+   revision="13"
+   checksum="e1adfc37b5e9165fa8176f2767192f20"
+   last-author="zhu91aizhu"
+   committed-rev="13"
+   text-time="2014-03-03T14:45:09.212000Z"
+   kind="file"
+   committed-date="2014-03-03T14:46:54.883000Z"/>
+<entry
+   name="materialDirectorSelfApproval.jsp"
+   revision="3"
+   checksum="f19945d426373028cee83671f8f3b11e"
+   last-author="zhu91aizhu"
+   committed-rev="3"
+   text-time="2014-03-02T05:03:17.784000Z"
+   kind="file"
+   committed-date="2014-03-02T05:09:58.213000Z"/>
+<entry
+   name="materialDirectorSelfPanel.jsp"
+   revision="14"
+   checksum="5ae92f87b597a1aa2c88938dcf46c956"
+   last-author="zhu91aizhu"
+   committed-rev="14"
+   text-time="2014-03-03T14:53:32.389000Z"
+   kind="file"
+   committed-date="2014-03-03T14:54:32.655000Z"/>
+<entry
+   name="materialDirectorSelfReadApproval.jsp"
+   revision="3"
+   checksum="79bbe8c8bc804e094231f254b0749fd3"
+   last-author="zhu91aizhu"
+   committed-rev="3"
+   text-time="2014-03-01T09:47:10.923000Z"
+   kind="file"
+   committed-date="2014-03-02T05:09:58.213000Z"/>
+<entry
+   name="materialFirstAddApply.jsp"
+   revision="11"
+   checksum="ed84e3dc0915b12d8260864b2ac69d9e"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:39:54.118000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialFirstPanel.jsp"
+   revision="11"
+   checksum="3bc554feb0c2a3c367a6690a9428d4d5"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:38:40.162000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialFirstReadApply.jsp"
+   revision="11"
+   checksum="e1adfc37b5e9165fa8176f2767192f20"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:41:13.733000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialFirstUpdateApply.jsp"
+   revision="11"
+   checksum="642f9513a04fc7bd47afe6b210ae7523"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:40:28.531000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialPanel.jsp"
+   revision="11"
+   checksum="e72f22341732f02db431e6917a3bb8a5"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:20:57.149000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="materialPurchaseFirstPanel.jsp"
+   revision="7"
+   checksum="277037e43a545c0a0b18c47cc6175197"
+   last-author="zhu91aizhu"
+   committed-rev="7"
+   text-time="2014-03-02T11:40:22.054000Z"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="materialPurchaseFirstReadApply.jsp"
+   revision="8"
+   checksum="847c334df5b78ae304580f220c13cf8b"
+   last-author="zhu91aizhu"
+   committed-rev="8"
+   text-time="2014-03-03T09:11:15.397000Z"
+   kind="file"
+   committed-date="2014-03-03T09:15:05.867000Z"/>
+<entry
+   name="materialPurchasePanel.jsp"
+   revision="7"
+   checksum="c20b766473e02e547c78c59e001613ee"
+   last-author="zhu91aizhu"
+   committed-rev="7"
+   text-time="2014-03-02T09:44:44.397000Z"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="materialPurchaseReadApply.jsp"
+   revision="7"
+   checksum="a541ce9c6c5e383035588a885a9e7077"
+   last-author="zhu91aizhu"
+   committed-rev="7"
+   text-time="2014-03-02T09:19:40.630000Z"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="materialPurchaseSelfPanel.jsp"
+   revision="9"
+   checksum="1bfa0fa0f8926cab7895dd9838a170cc"
+   last-author="zhu91aizhu"
+   committed-rev="9"
+   text-time="2014-03-03T09:33:23.723000Z"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="materialPurchaseSelfReadApply.jsp"
+   revision="9"
+   checksum="e3b286dd5b3d00f33f423aaedc01d169"
+   last-author="zhu91aizhu"
+   committed-rev="9"
+   text-time="2014-03-03T09:28:18.810000Z"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="materialReadApply.jsp"
+   checksum="f7ceaddaac4c2e41beca18ebd88d5afc"
+   last-author="zhu91aizhu"
+   committed-rev="2"
+   text-time="2014-02-28T10:37:37.939000Z"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="materialSelfAddApply.jsp"
+   revision="12"
+   checksum="57bc3b4760beedffbd7dd1241a2adb71"
+   last-author="zhu91aizhu"
+   committed-rev="12"
+   text-time="2014-03-03T10:51:10.196000Z"
+   kind="file"
+   committed-date="2014-03-03T10:53:36.363000Z"/>
+<entry
+   name="materialSelfPanel.jsp"
+   revision="12"
+   checksum="17ed04b0bc059a39134044b6efa4166f"
+   last-author="zhu91aizhu"
+   committed-rev="12"
+   text-time="2014-03-03T10:50:34.436000Z"
+   kind="file"
+   committed-date="2014-03-03T10:53:36.363000Z"/>
+<entry
+   name="materialSelfReadApply.jsp"
+   checksum="eaf0b69d68ebd74fd5c3093585387767"
+   last-author="zhu91aizhu"
+   committed-rev="2"
+   text-time="2014-02-28T03:58:30.809000Z"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="materialSelfUpdateApply.jsp"
+   revision="12"
+   checksum="7f44c3b6b66ebba2aaa706526b7178ec"
+   last-author="zhu91aizhu"
+   committed-rev="12"
+   text-time="2014-03-03T10:51:55.869000Z"
+   kind="file"
+   committed-date="2014-03-03T10:53:36.363000Z"/>
+<entry
+   name="materialUpdateApply.jsp"
+   revision="11"
+   checksum="278798cf3de2d9445ad669cf51563b60"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:21:40.083000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+</wc-entries>

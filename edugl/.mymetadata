@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="edugl"
+  id="myeclipse.1372036551742"
+  context-root="/edugl"
+  j2ee-spec="5.0"
+  archive="edugl.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

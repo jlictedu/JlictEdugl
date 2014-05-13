@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/manager"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="data.jsp"
+   checksum="b0b57acf6b86603df852e084e2fe5ac3"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T10:48:03.459000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="department-create.jsp"
+   checksum="76d8b40089c9af17e2735a19f708fab8"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T07:40:11.404000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="department-manager.jsp"
+   checksum="608750749a0453d56c216e1c8b1cb5f3"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T07:35:03.693000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="department-modify.jsp"
+   checksum="f30abf557132028778c80864554ed5aa"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T07:38:41.171000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="log-read.jsp"
+   checksum="c773f11d498bd66b01d918f08d066e7f"
+   last-author="zhu91aizhu"
+   text-time="2013-08-09T09:11:27.654000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="log.jsp"
+   checksum="3184827222ce32abe7eea385f80d0b8e"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T06:45:47.945000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="permission-create.jsp"
+   checksum="e7dba264f4810ade6047a8bde6aee917"
+   last-author="zhu91aizhu"
+   text-time="2013-07-25T14:56:03.513000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="permission-manager.jsp"
+   checksum="aabf9bf21ee8aec43fb091efce1814a8"
+   last-author="zhu91aizhu"
+   text-time="2013-08-05T09:30:53.751000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="station-create.jsp"
+   checksum="3304cf44cf9d8bfc8020f9e0c9510b76"
+   last-author="zhu91aizhu"
+   text-time="2013-08-06T02:55:38.001000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="station-manager.jsp"
+   checksum="6c9cc97b5b5921133839f766021d912a"
+   last-author="zhu91aizhu"
+   text-time="2013-08-06T06:49:09.302000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="station-modify.jsp"
+   checksum="8ff11e4e0cb6d039a2386113a7dded7c"
+   last-author="zhu91aizhu"
+   text-time="2013-08-06T02:55:35.958000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

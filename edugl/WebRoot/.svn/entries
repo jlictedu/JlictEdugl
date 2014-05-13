@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="404.html"
+   checksum="c1560da5ee49fd71f8edc5600b14b989"
+   last-author="zhu91aizhu"
+   text-time="2013-08-14T04:54:23.695000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="META-INF"
+   kind="dir"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   name="favicon.ico"
+   checksum="46c6e9d0ea3127f620f28e2ee7e08844"
+   last-author="zhu91aizhu"
+   text-time="2013-08-11T07:56:39.548000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:42.273000Z"/>
+<entry
+   name="image"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   name="welcome.jsp"
+   checksum="f8d77df1b735ad4bdbcc80fb41a5c689"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T10:35:04.671000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

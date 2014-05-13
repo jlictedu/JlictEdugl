@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/teachingQuality/util"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="GenerateTeachQualityStudentVo.java"
+   checksum="2fe5b467580689c46d23722b18254c43"
+   last-author="zhu91aizhu"
+   text-time="2014-01-15T12:54:46.647000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="GenerateTeachQualityVo.java"
+   checksum="1ec90bdf084cdeb2984500976823bdaa"
+   last-author="zhu91aizhu"
+   text-time="2014-01-15T12:57:15.380000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

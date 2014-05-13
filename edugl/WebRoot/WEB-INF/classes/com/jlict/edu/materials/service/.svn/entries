@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/materials/service"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialDeanFirstService.java"
+   revision="6"
+   checksum="7fc1b626e931bb5fdcbb6d4db628f93a"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:34:30.113000Z"
+   committed-rev="6"
+   kind="file"
+   committed-date="2014-03-02T07:45:23.914000Z"/>
+<entry
+   name="MaterialDeanSelfService.java"
+   revision="5"
+   checksum="c654c579266aa65b88a602f5ddb3a04f"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:15:11.200000Z"
+   committed-rev="5"
+   kind="file"
+   committed-date="2014-03-02T07:31:04.883000Z"/>
+<entry
+   name="MaterialDirectorFirstService.java"
+   revision="4"
+   checksum="2f485f3eb73c501006c1b6584c2a597e"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T05:35:38.160000Z"
+   committed-rev="4"
+   kind="file"
+   committed-date="2014-03-02T06:43:11.430000Z"/>
+<entry
+   name="MaterialDirectorSelfService.java"
+   revision="4"
+   checksum="9fe8fc6f48b09d429cc1a2eceb437a59"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T05:33:51.043000Z"
+   committed-rev="4"
+   kind="file"
+   committed-date="2014-03-02T06:43:11.430000Z"/>
+<entry
+   name="MaterialDirectorService.java"
+   revision="13"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="MaterialFirstService.java"
+   checksum="3900b28bc4b94fd54ab3afd66df6decd"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T02:33:47.844000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialPurchaseFirstService.java"
+   revision="7"
+   checksum="12dacb3050fb5a65310804a49372a382"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T11:25:01.182000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="MaterialPurchaseSelfService.java"
+   revision="7"
+   checksum="2c9333ada2b47b20d6c96deb8b5b2389"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T11:25:16.097000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="MaterialPurchaseService.java"
+   revision="7"
+   checksum="e30d424253334abd11266ce4a54be36b"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T11:12:37.213000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="MaterialSelfService.java"
+   checksum="cf6539fcf2c58fa43882a6249a3cc17f"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T02:49:21.489000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialService.java"
+   checksum="12bd512527a72c476032f6563b2279e9"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T09:02:47.866000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.dao.EvaluationSettingItemRow.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+public class EvaluationSettingItemRow implements RowMapper<EvaluationSettingItemVo>
+{
+
+	@Override
+	public EvaluationSettingItemVo mapRow(ResultSet rs, int arg1) throws SQLException
+	{
+		EvaluationSettingItemVo vo = new EvaluationSettingItemVo();
+		
+		try
+		{
+			vo.setId(rs.getString("ID"));
+			vo.setCoding(rs.getString("CODING"));
+			vo.setName(rs.getString("NAME"));
+			vo.setAttribute(rs.getString("ATTRIBUT"));
+			vo.setSort(rs.getString("SORT"));
+		}
+		catch (SQLException e)
+		{
+			e.printStackTrace();
+		}
+		
+		return vo;
+	}
+
+}

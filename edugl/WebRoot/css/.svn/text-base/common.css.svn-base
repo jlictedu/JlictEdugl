@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+.bg{padding-left:10px;padding-right:10px;padding-bottom:10px; height:92%; }
+.btn_xf{text-align:right;position:fixed;width:100%;background: #FFFFFF;padding-top: 10px;right: 15px;}
+.btn_xf_bg{height:35px;background: #FFFFFF;}
+a{text-decoration: none;color:#000000;}
+a:HOVER{text-decoration: underline;color:red;}
+.editView {font-size:12px;width:100%; BORDER-COLLAPSE: collapse;BORDER-RIGHT: #bad6ec 1px; BORDER-TOP: #bad6ec 1px; BORDER-LEFT: #bad6ec 1px; BORDER-BOTTOM: #bad6ec 1px; }
+.editViewNoBorder {font-size:12px;width:100%; BORDER-COLLAPSE: collapse;BORDER-RIGHT: #bad6ec 1px; BORDER-TOP: #bad6ec 1px; BORDER-LEFT: #bad6ec 1px; BORDER-BOTTOM: #bad6ec 1px; }
+.editView th {background:#EAF2FE;BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BORDER-LEFT: #bad6ec 1px solid; LINE-HEIGHT: 27px; BORDER-BOTTOM: #bad6ec 1px solid;font-size:14px;}
+.editView .td_div {text-align:center; font-size:14px;}
+.editView td {text-align:center; BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BORDER-LEFT: #bad6ec 1px solid; LINE-HEIGHT: 25px; BORDER-BOTTOM: #bad6ec 1px solid; }
+.editView_td_style {text-align:center; background:#EAF2FE;color:#00000;cellpadding:0px;}
+.editView_td_style_inp {text-align:center; padding-left:5px;colr:#00000;}
+.combox_td_style{text-align:center; colr:#00000;}
+.button_panel{ padding-top:1px;padding-bottom: 1px; padding-right:10px;text-align:right;}
+.table_container{padding-left:5px;padding-right:5px; padding-top:5px; padding-bottom:5px;}
+#container { padding:5px;}
+#buttons table{ width:100%; height:35px; font-size:12px; text-align:right;padding-right:10px;}
+#buttons table td{ padding-right:10px;}
+#content { padding-top:5px; }
+.btn_mouseout {BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px;  BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid; height:25px;}
+.btn_mouseover {BORDER-RIGHT: #2c59aa 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2c59aa 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px;  BORDER-LEFT: #2c59aa 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2c59aa 1px solid;height:25px;}
+.btn_mousedown {BORDER-RIGHT: #ffe400 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffe400 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px;  BORDER-LEFT: #ffe400 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #ffe400 1px solid;height:25px;}
+.btn_mouseup {BORDER-RIGHT: #2c59aa 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2c59aa 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; BORDER-LEFT: #2c59aa 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2c59aa 1px solid;height:25px;}
+button:disabled{background: #777;text-color:#444;}
+div{word-wrap:break-word;}

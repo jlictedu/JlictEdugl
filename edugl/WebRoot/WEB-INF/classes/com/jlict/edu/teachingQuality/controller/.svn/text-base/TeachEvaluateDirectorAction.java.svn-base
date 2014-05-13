@@ -1,0 +1,365 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.controller;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.jlict.edu.core.controller.BaseAction;
+import com.jlict.edu.core.dao.PagingJson;
+import com.jlict.edu.core.util.ResultJson;
+import com.jlict.edu.core.util.SysLogUtil;
+import com.jlict.edu.teachingQuality.service.TeachEvaluateDirectorService;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.controller.TeachEvaluateDirectorAction.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+@Controller
+public class TeachEvaluateDirectorAction extends BaseAction
+{
+	@Autowired
+	private TeachEvaluateDirectorService service;
+	
+	/**
+	 * 方法名: initSetting
+	 * 建立者： 孟兆祥 
+	 * 建立时间：2014年1月10日 上午11:26:17 
+	 * 描述：评估设置初始化 
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/evaluateSetting.do",method=RequestMethod.GET)
+	public ModelAndView initSetting(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/setting");
+	}
+	
+	/**
+	 * 方法名: queryCourses
+	 * 建立者： 孟兆祥 
+	 * 建立时间：2014年1月10日 下午4:15:38 
+	 * 描述: 查询所有可以操作评估的课程
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 Object
+	 */
+	@RequestMapping(value="/evaluateSetting.do",method=RequestMethod.POST,params="m=queryCourses")
+	@ResponseBody
+	public PagingJson queryCourses(HttpServletRequest request, HttpServletResponse response)
+	{
+		PagingJson json = null;
+		
+		try
+		{
+			Date date = new Date();
+			String year = new SimpleDateFormat("YYYY").format(date);
+			String month = new SimpleDateFormat("mm").format(date);
+			String userId = this.getUserId(request);
+			String departmentId = this.getDepartmentId(request);
+			int grade = Integer.parseInt(request.getParameter("grade"));
+			
+			//json = this.service.queryCourses(year, month, grade, userId, departmentId);
+		}
+		catch(Exception exception)
+		{
+			SysLogUtil.error("评估设置查询失败", exception);
+		}
+		
+		return json;
+	}
+	
+	/**
+	 * 方法名： openStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午3:58:05
+	 * 描述：开启评估
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 Object
+	 */
+	@RequestMapping(value="/evaluateSetting.do",method=RequestMethod.POST,params="m=openStatus")
+	@ResponseBody
+	public ResultJson openStatus(HttpServletRequest request, HttpServletResponse response)
+	{
+		ResultJson result = new ResultJson();
+		String evaluationId = UUID.randomUUID().toString();
+		
+		try
+		{
+			result.setResultCode(1);
+			result.setText(evaluationId);
+		}
+		catch(Exception e)
+		{
+			result.setResultCode(0);
+			SysLogUtil.error("开启课程评估失败", e);
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * 方法名： closeStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午4:19:39
+	 * 描述：关闭评估
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 Object
+	 */
+	@RequestMapping(value="/evaluateSetting.do",method=RequestMethod.POST,params="m=closeStatus")
+	@ResponseBody
+	public ResultJson closeStatus(HttpServletRequest request, HttpServletResponse response)
+	{
+		ResultJson result = new ResultJson();
+		
+		try
+		{
+			String evaluationId = request.getParameter("evaluationId");
+			
+			if(this.service.closeStatus(evaluationId))
+			{
+				result.setResultCode(1);
+			}
+			else
+			{
+				result.setResultCode(0);
+			}
+		}
+		catch(Exception e)
+		{
+			result.setResultCode(0);
+			SysLogUtil.error("关闭课程评估失败", e);
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * 方法名： clearStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午4:19:46
+	 * 描述：清除评估
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 Object
+	 */
+	@RequestMapping(value="/evaluateSetting.do",method=RequestMethod.POST,params="m=clearStatus")
+	@ResponseBody
+	public ResultJson clearStatus(HttpServletRequest request, HttpServletResponse response)
+	{
+		ResultJson result = new ResultJson();
+		
+		try
+		{
+			String evaluationId = request.getParameter("evaluationId");
+			
+			if(this.service.clearStatus(evaluationId))
+				result.setResultCode(1);
+			else
+				result.setResultCode(0);
+		}
+		catch(Exception e)
+		{
+			result.setResultCode(0);
+			SysLogUtil.error("清除课程评估失败", e);
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * 方法名： initHistory
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月22日 下午3:16:12
+	 * 描述：初始化被评估历史
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfHistory.do",method=RequestMethod.GET)
+	public ModelAndView initHistory(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfHistory");
+	}
+	
+	/**
+	 * 方法名： readHistory
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午6:19:02
+	 * 描述：阅读被评估记录
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfHistory.do",method=RequestMethod.POST,params="readHistory")
+	public ModelAndView readHistory(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfHistory");
+	}
+	
+	/**
+	 * 方法名： initEvaluationHistory
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午5:58:19
+	 * 描述：初始化被评估历史记录
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfEvaluationHistory.do",method=RequestMethod.GET)
+	public ModelAndView initEvaluationHistory(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfEvaluationHistory");
+	}
+	
+	/**
+	 * 方法名： queryEvaluationsHistory
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午6:02:59
+	 * 描述：根据指定条件返回课程所有的评估记录
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 PagingJson
+	 */
+	@RequestMapping(value="/directorOfEvaluationHistory.do",method=RequestMethod.POST,params="m=queryEvaluationsHistory")
+	@ResponseBody
+	public PagingJson queryEvaluationsHistory(HttpServletRequest request, HttpServletResponse response)
+	{
+		return null;
+	}
+	
+	/**
+	 * 方法名： readEvaluationHistory
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午6:04:07
+	 * 描述：返回评估详细记录
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfEvaluationHistory.do",method=RequestMethod.POST,params="readEvaluationHistory")
+	public ModelAndView readEvaluationHistory(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfEvaluationHistory");
+	}
+	
+	/**
+	 * 方法名： initEvaluate
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午1:31:02
+	 * 描述：评估操作初始化
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfEvaluation.do",method=RequestMethod.GET)
+	public ModelAndView initEvaluate(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfEvaluationPanel");
+	}
+
+	@RequestMapping(value="/directorOfEvaluation.do",method=RequestMethod.POST,params="queryEvaluations")
+	@ResponseBody
+	public PagingJson queryEvaluationsByPanel(HttpServletRequest request, HttpServletResponse response)
+	{
+		PagingJson json = null;
+		
+		try
+		{
+			String userId = this.getUserId(request);
+			
+			json = this.service.queryEvaluationsByPanel(userId);
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("返回评估课程信息组错误", e);
+		}
+		
+		return json;
+	}
+	
+	/**
+	 * 方法名： evaluate
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午1:45:19
+	 * 描述：返回空白评估表
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfEvaluation.do",method=RequestMethod.POST,params="m=evaluate")
+	public ModelAndView evaluate(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directOfEvaluation");
+	}
+	
+	/**
+	 * 方法名： evaluationSubmit
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午1:51:02
+	 * 描述：评估提交
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ResultJson
+	 */
+	@RequestMapping(value="/directorOfEvaluation.do",method=RequestMethod.POST,params="m=evaluationSubmit")
+	@ResponseBody
+	public ResultJson evaluationSubmit(HttpServletRequest request, HttpServletResponse response)
+	{
+		return null;
+	}
+	
+	/**
+	 * 方法名： initEvaluationsInfo
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午2:16:53
+	 * 描述：初始化评估信息查询
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 ModelAndView
+	 */
+	@RequestMapping(value="/directorOfEvaluationsInfo.do",method=RequestMethod.GET)
+	public ModelAndView initEvaluationsInfo(HttpServletRequest request, HttpServletResponse response)
+	{
+		return new ModelAndView("/teachingQuality/directorOfEvaluationsInfo");
+	}
+	
+	/**
+	 * 方法名： queryEvaluations
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月26日 下午5:46:46
+	 * 描述：返回指定年份、学期、课程所有的评估记录
+	 * 参数：request 说明：请求的request
+	 * 参数：response 说明：请求的response
+	 * 返回类型 PagingJson
+	 */
+	@RequestMapping(value="/directorOfEvaluationsInfo.do",method=RequestMethod.POST,params="queryEvaluations")
+	@ResponseBody
+	public PagingJson queryEvaluations(HttpServletRequest request, HttpServletResponse response)
+	{
+		PagingJson json = null;
+		
+		
+		
+		return json;
+	}
+}

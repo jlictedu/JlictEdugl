@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/images"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="loading.gif"
+   checksum="b1400fb7f115b58dd9dcdec66eb4510d"
+   last-author="zhu91aizhu"
+   text-time="2011-05-15T07:24:06.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:28.700000Z"/>
+<entry
+   name="top.jpg"
+   checksum="3b3d99b58b5c2c024d649b32e52485b7"
+   last-author="zhu91aizhu"
+   text-time="2012-03-10T10:03:28.456000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:29.963000Z"/>
+<entry
+   name="topicon.gif"
+   checksum="c98c80b2c3776a2aeeab000981b350a8"
+   last-author="zhu91aizhu"
+   text-time="2012-03-10T09:56:21.417000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:32.318000Z"/>
+</wc-entries>

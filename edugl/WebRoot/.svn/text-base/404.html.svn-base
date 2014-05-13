@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>错误网页</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+    	*{
+    		margin:0px;
+    		padding:0px;
+    	}
+    	#container{
+    		margin-left:auto;
+    		margin-right:auto;
+    		width:980px;
+    		height:355px;
+    		border:1px solid red;
+    	}
+    	div.error{
+			width:980px;
+			height:71px;
+			overflow: hidden;
+		}
+		#info{
+			position:absolute;
+			top:150px;
+			left:360px;
+			font-size:28px;
+		}
+    </style>
+    <script type="text/javascript"></script>
+  </head>
+  
+  <body>
+    <div id="container">
+    	<div class="error">
+			<img src="image/error_01.gif"/>
+		</div>
+		<div class="error">
+			<img src="image/error_02.gif"/>
+		</div>
+		<div class="error">
+			<img src="image/error_03.gif"/>
+		</div>
+		<div class="error">
+			<img src="image/error_04.gif"/>
+		</div>
+		<div class="error">
+			<img src="image/error_05.gif"/>
+		</div>
+    </div>
+    <div id="info">
+    	<h1>网页出现错误，请联系管理员!</h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/entrance/service"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceService.java"
+   checksum="0e17cfa421e58523eae2f1f3f6ed9218"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:46:19.071000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceService.java"
+   checksum="ec7ce16d58f2150f786e88f359e9f024"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:22:29.270000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

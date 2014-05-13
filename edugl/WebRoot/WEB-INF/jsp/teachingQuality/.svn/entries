@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/teachingQuality"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="directorOfEvaluation.jsp"
+   checksum="a1cfacc3e3f53daa2b77a4f056dafb1c"
+   last-author="zhu91aizhu"
+   text-time="2014-01-26T06:06:53.670000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="directorOfEvaluationHistory.jsp"
+   checksum="42f2728bbb671c0350d54f94ac437d2f"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T08:30:35.478000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="directorOfEvaluationPanel.jsp"
+   checksum="57cb8088974d3f89e1ed9c18d836219e"
+   last-author="zhu91aizhu"
+   text-time="2014-01-26T05:52:45.433000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="directorOfEvaluationsInfo.jsp"
+   checksum="ea4f551cc4e9179380a7627f6081a7f1"
+   last-author="zhu91aizhu"
+   text-time="2014-01-26T09:53:09.838000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="directorOfHistory.jsp"
+   checksum="af184258680170475b7110560f177904"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T08:13:12.318000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="setting.jsp"
+   checksum="56e29907344e4fbfe3e6953e8d17102e"
+   last-author="zhu91aizhu"
+   text-time="2014-01-20T07:20:25.200000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="studentOfEvaluation.jsp"
+   checksum="9dbaa47db846891b7c1a4c560256e481"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T08:01:00.168000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="studentOfEvaluationPanel.jsp"
+   checksum="7b0cc8bebbb734de272a25f2e9bfdd0d"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T08:03:15.442000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="teachEvaluateHistoryStudent.jsp"
+   checksum="e0c1af181462846c99979c3785e7d221"
+   last-author="zhu91aizhu"
+   text-time="2014-01-17T09:16:48.130000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="teachQualityInfo.jsp"
+   checksum="d3c978401b0fc1847ce311795256314e"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T12:40:19.567000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="teachQualityPsInfo.jsp"
+   checksum="4159926abd357eba8c15c9a2fb485411"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T13:36:21.777000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="teacherHistory.jsp"
+   checksum="8bc5493910e390e9af37cd28fe26a947"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T06:50:20.581000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="teacherOfEvaluationHistory.jsp"
+   checksum="681dad4d160c97a1dcf81fb7e9298c48"
+   last-author="zhu91aizhu"
+   text-time="2014-01-29T05:32:02.212000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

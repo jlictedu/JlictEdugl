@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/skins/Aqua/images/win"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="box-icons.gif"
+   checksum="d620db289447871ef078648bf57c9b54"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T03:31:02.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:37.370000Z"/>
+<entry
+   name="box.gif"
+   checksum="b24f046b6457b57ae35c20e712441bb6"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T03:09:16.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.531000Z"/>
+<entry
+   name="dialog-bc.gif"
+   checksum="a2e87eec9491ef4be43cb66395971953"
+   last-author="zhu91aizhu"
+   text-time="2012-01-17T17:23:18.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.278000Z"/>
+<entry
+   name="dialog-icons.gif"
+   checksum="79e9eb7f4c39b071a5da3306dedf596d"
+   last-author="zhu91aizhu"
+   text-time="2012-01-18T06:31:20.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:38.580000Z"/>
+<entry
+   name="dialog-tc.gif"
+   checksum="7de9f066b0d0ce5e96293c408aee994a"
+   last-author="zhu91aizhu"
+   text-time="2012-01-17T17:23:14.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.816000Z"/>
+<entry
+   name="dialog-winbtns.gif"
+   checksum="f33705474963aa691d7f5772d14ebb7d"
+   last-author="zhu91aizhu"
+   text-time="2012-01-19T04:56:46.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.726000Z"/>
+<entry
+   name="dialog.gif"
+   checksum="a70af342c397aa7e034c16bf40322616"
+   last-author="zhu91aizhu"
+   text-time="2012-01-19T04:53:24.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:27.368000Z"/>
+<entry
+   name="taskbar-task.gif"
+   checksum="7274043d92eb3af0e986cc9948095f76"
+   last-author="zhu91aizhu"
+   text-time="2012-02-02T05:56:40.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.771000Z"/>
+<entry
+   name="taskbar.gif"
+   checksum="91d866b4e009cf0e57accaa3372d6f8c"
+   last-author="zhu91aizhu"
+   text-time="2012-02-02T05:48:50.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:33.560000Z"/>
+<entry
+   name="taskbar.png"
+   checksum="54e22093d3a1937a17ee5740a90454c6"
+   last-author="zhu91aizhu"
+   text-time="2012-02-02T05:49:18.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:36.499000Z"/>
+<entry
+   name="taskicon.gif"
+   checksum="8c17bd8676f61fe2dc3e3fe68e8912bf"
+   last-author="zhu91aizhu"
+   text-time="2012-02-02T07:02:12.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"
+   prop-time="2014-03-01T07:06:30.340000Z"/>
+</wc-entries>

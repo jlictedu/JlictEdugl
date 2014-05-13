@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/manager/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="DepartmentDao.java"
+   checksum="b0b227b527163217f555a14172c5c502"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T07:24:23.552000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="DepartmentDetailRowMapper.java"
+   checksum="a6c77f48394df39a4fff6c707f56bd0d"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T07:27:38.636000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="DepartmentRowMapper.java"
+   checksum="2ea5c0fd30483d1ff5793130d9b4c54d"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T04:05:18.016000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="DepartmentVo.java"
+   checksum="ca75fef4f80d630f7f0955364f92c220"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T07:26:57.815000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="PermissionDao.java"
+   checksum="8b01f20514cc62bb7f50cc2f4c4a468f"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T17:10:23.061000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RoleDao.java"
+   checksum="10c256facf09af864e6ee5c7dcd35815"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T10:27:28.646000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RoleRowMapper.java"
+   checksum="707c9a80e7e24d36aea71b7fe3b0a7c5"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.914000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RoleVo.java"
+   checksum="16af73b4fb7ce2a4f97f68e38da27c6a"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.947000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RuleRowMapper.java"
+   checksum="029e832bd0064d4a1f6204946bc61769"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T17:10:34.947000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RuleVo.java"
+   checksum="0366128de73a7a26194f89ac09fdf899"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.906000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StationDao.java"
+   checksum="802332f37bec4055d20205820fc6a532"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T17:15:12.437000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StationDetailRowMapper.java"
+   checksum="f5691c7caaf90cde6e15a0ad71cb13d9"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.920000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StationRowMapper.java"
+   checksum="2d76d5d2da9f3608fb63c858e781e1f6"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.996000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StationVo.java"
+   checksum="6c241a46f3a94ededdcfe81e4a7bc6e7"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:49:53.927000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

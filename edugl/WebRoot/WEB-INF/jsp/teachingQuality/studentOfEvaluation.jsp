@@ -1,0 +1,412 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="../common/common.jsp"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>教学质量评估-学生</title>
+	<link href="<%=path %>/css/common.css" rel="stylesheet"
+		type="text/css" />
+	<link href="<%=path %>/js/ligerUI/skins/Aqua/css/ligerui-all.css"
+		rel="stylesheet" type="text/css" />
+	<script src="<%=path %>/js/jquery/jquery-1.5.2.min.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/jquery/jquery.form.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/ligerUI/js/core/base.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/ligerUI/js/plugins/ligerGrid.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/ligerUI/js/plugins/ligerDialog.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/ligerUI/js/plugins/ligerResizable.js"
+		type="text/javascript"></script>
+	<script src="<%=path %>/js/common.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var sendData = {};
+		var ideaContent = "意见及建议（希望同学们认真填写，多提宝贵意见，以便于我们及时改进，非常感谢您的支持）：";
+		var evaluationId, personEvaluationId;
+		
+		$(function () {
+			evaluationId = "${evaluationId}";
+			initEvaluation();
+			document.getElementById("ideaContent").value = ideaContent;
+			initData();
+		});
+		
+		function initData() {
+			var para = {evaluationId: evaluationId};
+			$.ajax({url:"studentOfEvaluation.do?m=initData", type:"POST",data:para,dataType:"json",async:false,success:loadInitData});
+		}
+		
+		function loadInitData(data) {
+			if(data == null) return;
+			$.ligerDialog.warn("你现在正在修改评估，如提交之前的评估将作废。");
+			personEvaluationId = data.id;
+			
+			var e = document.getElementsByName("teachAttitude1");
+			
+			e[getIndex(data.taEi1)].checked = true;
+			e = document.getElementsByName("teachAttitude2");
+			e[getIndex(data.taEi2)].checked = true;
+			e = document.getElementsByName("teachContent1");
+			e[getIndex(data.tcEi1)].checked = true;
+			e = document.getElementsByName("teachContent2");
+			e[getIndex(data.tcEi2)].checked = true;
+			e = document.getElementsByName("teachContent3");
+			e[getIndex(data.tcEi3)].checked = true;
+			e = document.getElementsByName("teachContent4");
+			e[getIndex(data.tcEi4)].checked = true;
+			e = document.getElementsByName("teachContent5");
+			e[getIndex(data.tcEi5)].checked = true;
+			e = document.getElementsByName("teachMethod1");
+			e[getIndex(data.tmEi1)].checked = true;
+			e = document.getElementsByName("teachMethod2");
+			e[getIndex(data.tmEi2)].checked = true;
+			e = document.getElementsByName("teachMethod3");
+			e[getIndex(data.tmEi3)].checked = true;
+			e = document.getElementsByName("teachEffect1");
+			e[getIndex(data.teEi1)].checked = true;
+			
+			document.getElementById("teachSum").innerHTML = teachSum();
+			
+			if(data.idea != null) {
+				$("#ideaContent").val(data.idea);
+			}
+		}
+		
+		function getIndex(data) {
+			if(data == 10) {
+				return 0;
+			}
+			if(data == 8) {
+				return 1;
+			}
+			if(data == 6) {
+				return 2;
+			}
+			if(data == 2) {
+				return 3;
+			}
+			if(data == 0) {
+				return 4;
+			}
+		}
+		
+		function initEvaluation() {
+			var para = {evaluationId: evaluationId};
+			$.ajax({url:"studentOfEvaluation.do?m=initHeadInfo",type:"POST",data:para,dataType:"json",async:false,success:loadHeadInfo});
+		}
+		
+		function loadHeadInfo(data) {
+			document.getElementById("dept").innerHTML = data.educationCollege;
+			document.getElementById("teacher").innerHTML = data.teacherName;
+			document.getElementById("clazz").innerHTML = data.attendClass;
+			document.getElementById("course").innerHTML = data.courseName;
+		}
+		
+		function teachAttitudeChecked() {
+			return teachChecked("teachAttitude", 2, "教学态度有未评估选项！");
+		}
+		
+		function teachContentChecked() {
+			return teachChecked("teachContent", 5, "教学内容有未评估选项！");
+		}
+		
+		function teachMethodChecked() {
+			return teachChecked("teachMethod", 3, "教学方法有未评估选项！");
+		}
+		
+		function teachEffectChecked() {
+			return teachChecked("teachEffect", 1, "教学效果有未评估选项！");
+		}
+		
+		function teachChecked(elementName, count, content) {
+			for(var i=1; i<=count; i++) {
+				var radio = document.getElementsByName(elementName + i);
+				var checked = false;
+				
+				for(var j=0; j<radio.length; j++) {
+					if(radio[j].checked) {
+						checked = true;
+						break;
+					}
+				}
+				
+				if(!checked) {
+					$.ligerDialog.warn(content);
+					return false;
+				}
+			}
+			
+			return true;
+		}
+		
+		function teachElementSum(elementName, count) {
+			var sum = 0;
+			
+			for(var i=1; i<=count; i++) {
+				var radio = document.getElementsByName(elementName + i);
+				
+				for(var j=0; j<radio.length; j++) {
+					if(radio[j].checked) {
+						sum += parseInt(radio[j].value);
+					}
+				}
+			}
+			
+			return sum;
+		}
+		
+		function teachSum() {
+			var sum = 0;
+			
+			sum += teachElementSum("teachAttitude", 2);
+			sum += teachElementSum("teachContent", 5);
+			sum += teachElementSum("teachMethod", 3);
+			
+			return sum;
+		}
+		
+		function radioOnClick() {
+			var teachSumElement = document.getElementById("teachSum");
+			
+			teachSumElement.innerHTML = teachSum();
+		}
+		
+		function getElementData(elementName) {	
+			var radio = document.getElementsByName(elementName);
+			
+			for(var j=0; j<radio.length; j++) {
+				if(radio[j].checked) {
+					return parseInt(radio[j].value);
+				}
+			}
+		}
+		
+		function assignSendDataByElements(prevFix, count) {
+			for(var i=1; i<=count; i++) {
+				sendData[prevFix + i] = getElementData(prevFix + i);
+			}
+		}
+		
+		function assignSendData() {
+			assignSendDataByElements("teachAttitude", 2);
+			assignSendDataByElements("teachContent", 5);
+			assignSendDataByElements("teachMethod", 3);
+			assignSendDataByElements("teachEffect", 1);
+			
+			sendData["teachSum"] = parseInt(document.getElementById("teachSum").innerHTML);
+			
+			if(document.getElementById("ideaContent").value != ideaContent)
+				sendData["ideaContent"] = document.getElementById("ideaContent").value;
+			else
+				sendData["ideaContent"] = "";
+			
+			sendData["evaluateSettingId"] = evaluationId;
+			sendData["personEvaluationId"] = personEvaluationId;
+		}
+		
+		function evaluationSubmit() {
+			if(!teachAttitudeChecked()) return;
+			if(!teachContentChecked()) return;
+			if(!teachMethodChecked()) return;
+			if(!teachEffectChecked()) return;
+			
+			assignSendData();
+			$.ajax({url:"studentOfEvaluation.do?m=evaluationSubmit",type:"POST",data:sendData,dataType:"json",async:false,success:evaluationSubmitCallback});
+		}
+		
+		function evaluationSubmitCallback(data) {
+			if(data.resultCode == 1) {
+				$.ligerDialog.success(data.text);
+				document.getElementById("submit").disabled=true;
+				return;
+			}
+			
+			$.ligerDialog.error(data.text);
+		}
+		
+		function ideaContentOnFocus() {
+			var content = document.getElementById("ideaContent").value;
+			
+			if(content == ideaContent) {
+				document.getElementById("ideaContent").value = "";
+			}
+		}
+		
+		function ideaContentOnBlur() {
+			var content = document.getElementById("ideaContent").value;
+			
+			if(content == "") {
+				document.getElementById("ideaContent").value = ideaContent;
+			}
+		}
+	</script>
+</head>
+	
+<body>
+	<div class ="table_container">
+		<div class ="button_panel">
+			<input type ="button" name ="submit" id ="submit" value ="提交" onClick = "evaluationSubmit()" />
+		</div>
+		
+		<table class ="editView">
+			<tr>
+			<td class="editView_td_style">学生所在教学院：</td><td id="dept"></td>
+			<td class="editView_td_style">班级：</td><td  id="clazz"></td>
+			<td class="editView_td_style">课程：</td><td  id="course"></td>
+			<td class="editView_td_style">被评教师：</td><td  id="teacher"></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="table_container">
+		<table class ="editView">
+		<tr>
+		<td class="editView_td_style" rowspan ='2'>项目</td>
+		<td class="editView_td_style" rowspan ='2'>序号</td>
+		<td class="editView_td_style" rowspan ='2'>评估指标</td>
+		<td class="editView_td_style" rowspan ='2'>满分100</td>
+		<td class="editView_td_style" colspan ='5'>等级</td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" width = 60>很好10</td>
+		<td class="editView_td_style" width = 60>较好8</td>
+		<td class="editView_td_style" width = 60>一般6</td>
+		<td class="editView_td_style" width = 60>差2</td>
+		<td class="editView_td_style" width = 60>较差0</td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" rowspan ='2'>教学态度</td>
+		<td class="editView_td_style">1</td>
+		<td class="editView_td_style">举止得体，仪态端庄，讲课有热情,精神饱满，富有感染力，能吸引学生注意力。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type ='radio' id = 'teachAttitude1' name ='teachAttitude1' value = 10 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id = 'teachAttitude1' name ='teachAttitude1' value = 8 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id = 'teachAttitude1' name ='teachAttitude1' value = 6 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id = 'teachAttitude1' name ='teachAttitude1' value = 2 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id = 'teachAttitude1' name ='teachAttitude1' value = 0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">2</td>
+		<td class="editView_td_style">注重并善于同学生的沟通和交流，平易近人，亦师亦友。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type ='radio' id ='teachAttitude2' name ='teachAttitude2' value = 10 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id ='teachAttitude2' name ='teachAttitude2' value = 8 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id ='teachAttitude2' name ='teachAttitude2' value = 6 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id ='teachAttitude2' name ='teachAttitude2' value = 2 onClick = "radioOnClick()" /></td>
+		<td><input type ='radio' id ='teachAttitude2' name ='teachAttitude2' value = 0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" rowspan ='5'>教学内容</td>
+		<td class="editView_td_style">3</td>
+		<td class="editView_td_style">对问题的阐述深入浅出，有启发性。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachContent1' name='teachContent1' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent1' name='teachContent1' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent1' name='teachContent1' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent1' name='teachContent1' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent1' name='teachContent1' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">4</td>
+		<td class="editView_td_style">阐述问题简练准确，重点突出,思路清晰。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachContent2' name='teachContent2' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent2' name='teachContent2' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent2' name='teachContent2' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent2' name='teachContent2' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent2' name='teachContent2' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">5</td>
+		<td class="editView_td_style">对课程内容娴熟，运用自如，轻松自然。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachContent3' name='teachContent3' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent3' name='teachContent3' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent3' name='teachContent3' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent3' name='teachContent3' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent3' name='teachContent3' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">6</td>
+		<td class="editView_td_style">讲述内容充实，信息量适中。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachContent4' name='teachContent4' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent4' name='teachContent4' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent4' name='teachContent4' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent4' name='teachContent4' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent4' name='teachContent4' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">7</td>
+		<td class="editView_td_style">教学内容能反映或联系学科的新思想、新概念、新成果。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachContent5' name='teachContent5' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent5' name='teachContent5' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent5' name='teachContent5' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent5' name='teachContent5' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachContent5' name='teachContent5' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" rowspan ='3'>教学方法</td>
+		<td class="editView_td_style">8</td>
+		<td class="editView_td_style">能给予学生思考、联想、创新的启迪。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachMethod1' name='teachMethod1' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod1' name='teachMethod1' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod1' name='teachMethod1' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod1' name='teachMethod1' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod1' name='teachMethod1' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">9</td>
+		<td class="editView_td_style">注重教与学的互动，能调控课堂秩序和学生情绪，课堂气氛活跃。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachMethod2' name='teachMethod2' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod2' name='teachMethod2' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod2' name='teachMethod2' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod2' name='teachMethod2' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod2' name='teachMethod2' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style">10</td>
+		<td class="editView_td_style">能有效地利用各种教学媒体与教具。</td>
+		<td class="editView_td_style">10</td>
+		<td><input type='radio' id = 'teachMethod3' name='teachMethod3' value=10 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod3' name='teachMethod3' value=8 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod3' name='teachMethod3' value=6 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod3' name='teachMethod3' value=2 onClick = "radioOnClick()" /></td>
+		<td><input type='radio' id = 'teachMethod3' name='teachMethod3' value=0 onClick = "radioOnClick()" /></td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" colspan ='3'>合计得分</td>	
+		<td id = "teachSum" colspan ='6'>0</td>
+		</tr>
+		<tr>
+		<td class="editView_td_style" rowspan ='2' colspan ='2'>教学效果</td>
+		<td class="editView_td_style" rowspan ='2' colspan ='2'>对授课教师教学情况的总体满意度</td>
+		<td class="editView_td_style">很好</td>
+		<td class="editView_td_style">较好</td>
+		<td class="editView_td_style">一般</td>
+		<td class="editView_td_style">差</td>
+		<td class="editView_td_style">较差</td>
+		</tr>
+		<tr>
+		<td height=25><input type='radio' id = 'teachEffect1' name='teachEffect1' value=10 /></td>
+		<td><input type='radio' id = 'teachEffect1' name='teachEffect1' value=8 /></td>
+		<td><input type='radio' id = 'teachEffect1' name='teachEffect1' value=6 /></td>
+		<td><input type='radio' id = 'teachEffect1' name='teachEffect1' value=2 /></td>
+		<td><input type='radio' id = 'teachEffect1' name='teachEffect1' value=0 /></td>
+		</tr>
+		<tr>
+		<td  class="editView_td_style" colspan = "2">
+			<p>意见及建议</p>
+			<p>限500字以内</p>
+		</td>
+		<td colspan='7'><textarea id="ideaContent"  style="resize:none;width:100%;height:200px;" onfocus='ideaContentOnFocus()' onblur="ideaContentOnBlur()"></textarea></td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>

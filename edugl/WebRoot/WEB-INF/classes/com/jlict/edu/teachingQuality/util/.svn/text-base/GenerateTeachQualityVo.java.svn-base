@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
+
+import com.jlict.edu.teachingQuality.dao.TeachQualityStudentVo;
+import com.jlict.edu.teachingQuality.dao.TeachQualityVo;
+
+/**
+ * <p>
+ * Title: com.jlict.edu.teachingQuality.util.GenerateTeachQualityVo.java
+ * </p>
+ * <p>
+ * Description:
+ * </p>
+ * <p>
+ * Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院
+ * </p>
+ * <p>
+ * Company: 吉林化工学院
+ * </p>
+ * 
+ * @author 孟兆祥
+ * @version 1.0
+ */
+public class GenerateTeachQualityVo
+{
+	private TeachQualityVo vo = new TeachQualityVo();
+
+	public TeachQualityVo getTeachQualityVo(TeachQualityStudentVo vo)
+	{
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+
+		this.vo.setId(UUID.randomUUID().toString());
+		this.vo.setEvaluate_id(vo.getId());
+		this.vo.setEvaluate_category(1);
+		this.vo.setDate_time(format.format(new Date()));
+
+		return this.vo;
+	}
+
+	public void setEvaluateSettingId(String id)
+	{
+		this.vo.setEvaluate_setting_id(id);
+	}
+}

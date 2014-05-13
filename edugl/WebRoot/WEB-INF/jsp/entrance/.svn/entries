@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF/jsp/entrance"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EducationInsert.jsp"
+   checksum="8f73f7da01a513e148f2ad6c69fe730c"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T13:12:53.904000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="FamilyInsert.jsp"
+   checksum="47d71bdab34c788f83609daa6fb2b987"
+   last-author="zhu91aizhu"
+   text-time="2013-12-24T13:15:07.705000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceDetail.jsp"
+   checksum="8917694e671fce6dbc2d7ce76731041a"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T09:38:19.415000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceEdit.jsp"
+   checksum="b7e3fc7b9ae039ac7d86989540c8829a"
+   last-author="zhu91aizhu"
+   text-time="2013-12-26T04:09:42.930000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceInsert.jsp"
+   checksum="5e3d67f7709bab82091cb4e6e34d2e1d"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T09:24:36.216000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceMain.jsp"
+   checksum="72bd710e707d3b6cf2d312af32a2416b"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:45:25.845000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceDetail.jsp"
+   checksum="e619e9b998444b11b3f7c3b57c424b71"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T14:00:54.260000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceEdit.jsp"
+   checksum="fe80d50ec939f1e20501a7a2f5a54791"
+   last-author="zhu91aizhu"
+   text-time="2013-12-28T03:51:35.369000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceInsert.jsp"
+   checksum="26277277b98eb3d56886900297913e74"
+   last-author="zhu91aizhu"
+   text-time="2014-01-16T11:24:00.623000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceMain.jsp"
+   checksum="2f9d719d4fb01cfb5924cbb20b736d1b"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:46:19.090000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TrainInsert.jsp"
+   checksum="966abe0fc156442b44c310ccc2f637f5"
+   last-author="zhu91aizhu"
+   text-time="2013-07-31T12:38:12.547000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="WorkInsert.jsp"
+   checksum="b9e9bece102b3e3a68003b7501f0a4c9"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T07:40:15.460000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

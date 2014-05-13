@@ -1,0 +1,94 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jlict.edu.core.dao.PagingJson;
+import com.jlict.edu.teachingQuality.dao.TeachEvaluateDirectorDao;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.service.TeachEvaluateDirectorService.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+@Service
+public class TeachEvaluateDirectorService
+{
+	@Autowired
+	private TeachEvaluateDirectorDao dao;
+	
+	/**
+	 * 方法名： queryCourses
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午3:13:35
+	 * 描述：查询所有可以开启评估的课程
+	 * 参数：grade 需要查询的年级
+	 * 参数：userId 用户ID
+	 * 返回类型 PagingJson
+	 */
+//	public PagingJson queryCourses(String year, String month, int grade, String userId, String departmentId)
+//	{
+//		return this.dao.queryCourses(year, month, grade, userId, departmentId);
+//	}
+	
+	/**
+	 * 方法名： queryEvaluationsByPanel
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年2月2日 上午10:31:37
+	 * 描述：TODO(这里用一句话描述这个方法的作用)
+	 * 参数：para 说明：TODO
+	 * 返回类型 PagingJson
+	 */
+	public PagingJson queryEvaluationsByPanel(String userId)
+	{
+		return this.dao.queryEvaluationsByPanel(userId);
+	}
+	
+	/**
+	 * 方法名： openStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午2:02:33
+	 * 描述：开启课程评估
+	 * 参数：para 说明：TODO
+	 * 返回类型 boolean
+	 */
+	public boolean openStatus()
+	{
+		return this.dao.openStatus();
+	}
+	
+	/**
+	 * 方法名： closeStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午2:02:36
+	 * 描述：关闭课程评估
+	 * 参数：evaluationId：评估ID
+	 * 返回类型 boolean
+	 */
+	public boolean closeStatus(String evaluationId)
+	{
+		return this.dao.closeStatus(evaluationId);
+	}
+	
+	/**
+	 * 方法名： clearStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午2:02:38
+	 * 描述：清除课程评估
+	 * 参数：evaluationId：评估ID
+	 * 返回类型 boolean
+	 */
+	public boolean clearStatus(String evaluationId)
+	{
+		return this.dao.clearStatus(evaluationId);
+	}
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/WEB-INF"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="backup"
+   kind="dir"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   name="jsp"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="log"
+   kind="dir"/>
+<entry
+   name="web.xml"
+   checksum="8f2555c7ff4dd0f8ff890b58d14d12ff"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T16:31:36.455000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

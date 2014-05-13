@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/manager/service"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="DepartmentService.java"
+   checksum="cb27b162ada6ded5fb206c0ee9ead1ef"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T07:23:57.206000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="PermissionService.java"
+   checksum="8bf54e63940955eb0db86b1e301dd7a4"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:00.196000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="RoleService.java"
+   checksum="695ac65e3a533a40fe4387cce45adefb"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T10:27:40.704000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StationService.java"
+   checksum="04cfe78026ba94c1184f906e4f120888"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:00.204000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

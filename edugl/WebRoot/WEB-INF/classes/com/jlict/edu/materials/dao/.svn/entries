@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/materials/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialDao.java"
+   revision="10"
+   checksum="45689f3231a1c55a58896e9bc063621c"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:56:15.002000Z"
+   committed-rev="10"
+   kind="file"
+   committed-date="2014-03-03T10:19:45.298000Z"/>
+<entry
+   name="MaterialDeanFirstDao.java"
+   revision="15"
+   checksum="020c896c3064927f4b3ec1d3141b1b9c"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:06:14.636000Z"
+   committed-rev="15"
+   kind="file"
+   committed-date="2014-03-03T15:09:46.216000Z"/>
+<entry
+   name="MaterialDeanSelfDao.java"
+   revision="16"
+   checksum="d0c7e0d7c7e4a8f7f864df2506683849"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T15:18:49.830000Z"
+   committed-rev="16"
+   kind="file"
+   committed-date="2014-03-03T15:22:10.296000Z"/>
+<entry
+   name="MaterialDirectorDao.java"
+   revision="13"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="MaterialDirectorFirstDao.java"
+   revision="13"
+   checksum="103c0d4474a9a3abad02631ee47e14d6"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T14:42:59.778000Z"
+   committed-rev="13"
+   kind="file"
+   committed-date="2014-03-03T14:46:54.883000Z"/>
+<entry
+   name="MaterialDirectorSelfDao.java"
+   revision="14"
+   checksum="5dc9a98694bc748342ebcbafbba2db5c"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T14:51:43.820000Z"
+   committed-rev="14"
+   kind="file"
+   committed-date="2014-03-03T14:54:32.655000Z"/>
+<entry
+   name="MaterialFirstDao.java"
+   revision="11"
+   checksum="704d4283841214dbae8fcbed26c35ce4"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T10:36:27.395000Z"
+   committed-rev="11"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="MaterialFirstItemRowMapper.java"
+   checksum="291de63b2ddf3c2809cdbae85c1f21c7"
+   last-author="zhu91aizhu"
+   text-time="2014-02-25T20:48:40.309000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialFirstItemVo.java"
+   checksum="227191efe4aa27721a40ee18c84a44b0"
+   last-author="zhu91aizhu"
+   text-time="2014-02-25T20:34:17.583000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialFirstVo.java"
+   checksum="480f495c39a62589a40e37abb2207ddf"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T11:19:05.068000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialItemRowMapper.java"
+   checksum="8c80802ecc295e40a01b1b2954356720"
+   last-author="zhu91aizhu"
+   text-time="2014-02-26T05:58:01.936000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialItemVo.java"
+   checksum="a362b3afe84328ecdad6e186347d2dea"
+   last-author="zhu91aizhu"
+   text-time="2014-02-26T05:56:33.844000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialPurchaseDao.java"
+   revision="7"
+   checksum="387cc3b625206bc9e46e38b93ed08ec5"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T08:52:21.644000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="MaterialPurchaseFirstDao.java"
+   revision="8"
+   checksum="2d9dc8146050d5b91bfb5f480c3567d4"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:10:13.573000Z"
+   committed-rev="8"
+   kind="file"
+   committed-date="2014-03-03T09:15:05.867000Z"/>
+<entry
+   name="MaterialPurchaseSelfDao.java"
+   revision="9"
+   checksum="ee5ce63d9dc32c713c90ec03ca06190b"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:32:31.853000Z"
+   committed-rev="9"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="MaterialSelfDao.java"
+   revision="12"
+   checksum="9adb41a45bb5ae985402f527fd16cb87"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T10:48:19.662000Z"
+   committed-rev="12"
+   kind="file"
+   committed-date="2014-03-03T10:53:36.363000Z"/>
+<entry
+   name="MaterialSelfItemRowMapper.java"
+   revision="9"
+   checksum="72a4bf9eca14b1a4b505c57ec2f15b06"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:38:23.526000Z"
+   committed-rev="9"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="MaterialSelfItemVo.java"
+   revision="9"
+   checksum="9eed189fb040860f2eba75a3106b65cc"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:37:12.732000Z"
+   committed-rev="9"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="MaterialSelfRowMapper.java"
+   checksum="e92a46ae6c023dada424269fc5e3ddf2"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T03:17:29.479000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialSelfVo.java"
+   checksum="fafb15516f63491e2a7176344e6b8c70"
+   last-author="zhu91aizhu"
+   text-time="2014-02-28T03:17:16.575000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialVo.java"
+   revision="7"
+   checksum="71d9dee8f126ac18b8d3f34397f1ba2f"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T08:36:38.892000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+</wc-entries>

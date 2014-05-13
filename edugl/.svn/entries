@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="1"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl"
+   uuid="230469ee-2fc0-6f4e-9ce8-655c16141785"
+   committed-rev="1"
+   kind="dir"
+   committed-date="2014-03-01T07:04:42.065726Z"/>
+<entry
+   name=".myeclipse"
+   kind="dir"/>
+<entry
+   name=".mymetadata"
+   revision="2"
+   checksum="c8f80c8a867d940084c56799a4984391"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T16:29:22.860000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="WebRoot"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="项目注释模板.xml"
+   revision="2"
+   checksum="b34aed25c119d19067cd4c6efe808fe4"
+   last-author="zhu91aizhu"
+   text-time="2014-01-10T03:31:07.943000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

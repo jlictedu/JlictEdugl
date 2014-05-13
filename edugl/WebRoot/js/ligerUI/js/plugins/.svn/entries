@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/WebRoot/js/ligerUI/js/plugins"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerAccordion.js"
+   checksum="0f64bf55170f1fcc6bbbd02526a18c00"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:09.671000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerButton.js"
+   checksum="de949119abdf50b89ae67051cac7e56e"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:09.721000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerCheckBox.js"
+   checksum="2324451e24cbc399ade6f2b417d2766a"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:09.754000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerCheckBoxList.js"
+   checksum="35c226286b891156b95b9ccd045abb96"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:09.808000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerComboBox.js"
+   checksum="f0783b875a05f92323baeb501d1f2ea9"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T12:09:13.775000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerDateEditor.js"
+   checksum="f1daefaf9d40bf2a258b61180359959b"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:09.967000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerDialog.js"
+   checksum="12337cd7067c95cdd907482042505fc6"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.039000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerDrag.js"
+   checksum="6b1b3af984ebed2b44284164e6af4a86"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.102000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerEasyTab.js"
+   checksum="44990ae981d3f2352b927126ee755218"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.135000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerFilter.js"
+   checksum="5ba1edf63ae574c8f606572adfc7ae3e"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.170000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerForm.js"
+   checksum="087c4e0162ace9824bdd392d8769aad7"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:15.674000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerGrid.js"
+   checksum="c81a1d6907610d50fb81f1a9eb834783"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T12:13:45.394000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerLayout.js"
+   checksum="3595f11f97a29d14d5827e397c4309a3"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.330000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerListBox.js"
+   checksum="43e15ba2b015fcc63b23efce60d7e5e3"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.370000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerMenu.js"
+   checksum="619def019adc1f7adbc8f754aefebaf7"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.433000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerMenuBar.js"
+   checksum="3e83f560e0e2648cdceaa39b1a38c35e"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.480000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerMessageBox.js"
+   checksum="8d82e87afedb320cc51508400aa7962c"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.530000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerPopupEdit.js"
+   checksum="8d49e09d6a91b4a10bdbe9c50414232c"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.584000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerRadio.js"
+   checksum="488e271e5bd1905f887f5da28ecded6d"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.626000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerRadioList.js"
+   checksum="d10f663d5cf358cc5ac10a5c0164f4f0"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.658000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerResizable.js"
+   checksum="5b7be5f20f920c3b090acad348304641"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.703000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerSpinner.js"
+   checksum="b7935aea0519dd3e37d7125052252a65"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.746000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerTab.js"
+   checksum="2b9b19b32150d333fd2b7598e3e1a462"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.788000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerTextBox.js"
+   checksum="3f3c47ad49273c0d9c6ac96fff6a412b"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.820000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerTip.js"
+   checksum="78eeb6646337467470bca87f985c1fdb"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.877000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerToolBar.js"
+   checksum="e580bfdd02cf2b91de3291ff51ff4ee7"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.915000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerTree.js"
+   checksum="fd04c94be59d1e8c6febc8267192cb82"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:10.977000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ligerWindow.js"
+   checksum="8bf59b56189190d0c7823dec3fd68c4c"
+   last-author="zhu91aizhu"
+   text-time="2013-05-12T06:28:11.027000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

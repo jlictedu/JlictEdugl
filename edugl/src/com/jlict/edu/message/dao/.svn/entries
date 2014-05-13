@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/message/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageDao.java"
+   checksum="9740f93ef200f8a14793c0e4b19d9cb7"
+   last-author="zhu91aizhu"
+   text-time="2013-12-22T10:30:13.244000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageReadRowMapper.java"
+   checksum="584a04c15657d221c37b511878220149"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.526000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageReadSummaryRowMapper.java"
+   checksum="670f97a6d16f2e457ac0745f736eb495"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.566000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageReadSummaryVo.java"
+   checksum="b8ad8cbc1345f629e271190a787cdb6c"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.591000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageReadVo.java"
+   checksum="09606dfa7c6bb623064cef62043aca4f"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.456000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageWriteRowMapper.java"
+   checksum="b8ebb6e337dcde1a16bd49c5ae699e18"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.501000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageWriteSummaryRowMapper.java"
+   checksum="aed8d67e211cded35d6ad28b0558bc76"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.574000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageWriteSummaryVo.java"
+   checksum="f7f86b9a0a588dbfccc4eb74734cdbb2"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.482000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MessageWriteVo.java"
+   checksum="7a1be823e827ab5f887ba70607341f13"
+   last-author="zhu91aizhu"
+   text-time="2013-12-21T15:50:20.539000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

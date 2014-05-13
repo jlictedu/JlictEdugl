@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/materials/controller"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="MaterialAction.java"
+   revision="10"
+   checksum="78c74478cf0a1d1e8d066b79c77dc964"
+   last-author="zhu91aizhu"
+   committed-rev="10"
+   text-time="2014-03-03T10:01:32.978000Z"
+   kind="file"
+   committed-date="2014-03-03T10:19:45.298000Z"/>
+<entry
+   name="MaterialDeanFirstAction.java"
+   revision="6"
+   checksum="833ceba842c2473e36212b888987a965"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:36:42.628000Z"
+   committed-rev="6"
+   kind="file"
+   committed-date="2014-03-02T07:45:23.914000Z"/>
+<entry
+   name="MaterialDeanSelfAction.java"
+   revision="5"
+   checksum="f22479120fc9a8628e3ca9228e75c356"
+   last-author="zhu91aizhu"
+   text-time="2014-03-02T07:14:25.019000Z"
+   committed-rev="5"
+   kind="file"
+   committed-date="2014-03-02T07:31:04.883000Z"/>
+<entry
+   name="MaterialDirectorFirstAction.java"
+   revision="4"
+   checksum="6db36e0cb48ddf821983e4ffe50dc35e"
+   last-author="zhu91aizhu"
+   committed-rev="4"
+   text-time="2014-03-02T06:31:39.479000Z"
+   kind="file"
+   committed-date="2014-03-02T06:43:11.430000Z"/>
+<entry
+   name="MaterialDirectorSelfAction.java"
+   revision="3"
+   checksum="7e3ee75d3fd2322340f2c0dcf612b079"
+   last-author="zhu91aizhu"
+   committed-rev="3"
+   text-time="2014-03-01T11:18:32.889000Z"
+   kind="file"
+   committed-date="2014-03-02T05:09:58.213000Z"/>
+<entry
+   name="MaterialFirstAction.java"
+   revision="11"
+   checksum="bed88871cc89f41c42d5ba1c161fec15"
+   last-author="zhu91aizhu"
+   committed-rev="11"
+   text-time="2014-03-03T10:34:32.132000Z"
+   kind="file"
+   committed-date="2014-03-03T10:42:17.934000Z"/>
+<entry
+   name="MaterialPurchaseAction.java"
+   revision="7"
+   checksum="ea8e6acbff1505b7015dbcfc6f960bdd"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T08:50:08.389000Z"
+   committed-rev="7"
+   kind="file"
+   committed-date="2014-03-03T08:55:38.712000Z"/>
+<entry
+   name="MaterialPurchaseFirstAction.java"
+   revision="8"
+   checksum="f08ca9247ac02fbe15bf280bac53eb62"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:12:29.291000Z"
+   committed-rev="8"
+   kind="file"
+   committed-date="2014-03-03T09:15:05.867000Z"/>
+<entry
+   name="MaterialPurchaseSelfAction.java"
+   revision="9"
+   checksum="00a600f2cd3bd780526335656a1c10b4"
+   last-author="zhu91aizhu"
+   text-time="2014-03-03T09:25:57.387000Z"
+   committed-rev="9"
+   kind="file"
+   committed-date="2014-03-03T09:40:17.517000Z"/>
+<entry
+   name="MaterialSelfAction.java"
+   checksum="90a19864412666c6b509f0a34a49d4a2"
+   last-author="zhu91aizhu"
+   committed-rev="2"
+   text-time="2014-03-01T04:58:49.626000Z"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

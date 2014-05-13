@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://zhu91aizhu-pc/svn/edugl"
+   name=""
+   revision="2"
+   last-author="zhu91aizhu"
+   url="https://zhu91aizhu-pc/svn/edugl/edugl/src/com/jlict/edu/entrance/dao"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EducateExperienceVo.java"
+   checksum="77add288a4136a894f6553feb99e2b0c"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:36:13.715000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="EducationDao.java"
+   checksum="9c2dbcad903e0d5898d9d153fe806d55"
+   last-author="zhu91aizhu"
+   text-time="2013-12-26T03:59:41.409000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="FamilyDao.java"
+   checksum="e002b754c8414cbee57ca5737fd87959"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T08:41:18.717000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="FamilyVo.java"
+   checksum="f2fae3044d912a68c46f6a79cf8e77b4"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:34:03.910000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="JobExperienceVo.java"
+   checksum="97f2a78c1c53047e381dbab11cfa0519"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:36:40.606000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ProfessionalMapper.java"
+   checksum="8c829e69aed993ee6db6ff7b1b5b6095"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T02:21:03.929000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="ProfessionalVo.java"
+   checksum="69df401c50fca6038be36233c205257b"
+   last-author="zhu91aizhu"
+   text-time="2014-01-16T11:44:12.471000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentEntranceDao.java"
+   checksum="dad959574be3748473e1baae136cb299"
+   last-author="zhu91aizhu"
+   text-time="2014-01-22T04:01:44.135000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentIdMapper.java"
+   checksum="47e1f055c5d1844a0a339eb0fa91d970"
+   last-author="zhu91aizhu"
+   text-time="2013-12-25T08:09:07.776000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentMapper.java"
+   checksum="4882e125c931c24c50bc837b0ec95c4a"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T03:13:55.128000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentMapperSummary.java"
+   checksum="dd985548b42945f2e450b157482a7d34"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T03:14:11.769000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="StudentVo.java"
+   checksum="2ad2c5098f41a99fbad4c8afa497c66e"
+   last-author="zhu91aizhu"
+   text-time="2014-01-16T11:43:39.151000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherEntranceDao.java"
+   checksum="b0cd924da1c0287b09e2e03a2cfbb11a"
+   last-author="zhu91aizhu"
+   text-time="2014-01-01T06:29:54.358000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherIdMapper.java"
+   checksum="f15f1352beb552f5ac19902ceaba0e7b"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T11:12:49.333000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherMapper.java"
+   checksum="92230f158e8dafbef039b81e09bf6d1d"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T09:48:15.143000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherMapperSummary.java"
+   checksum="ee8a1e1542fc9c118e0a5f224a45b0e3"
+   last-author="zhu91aizhu"
+   text-time="2013-12-28T01:47:57.230000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="TeacherVo.java"
+   checksum="dde3c771b5cc3dca04b89f2c71d571ba"
+   last-author="zhu91aizhu"
+   text-time="2014-01-16T11:43:55.238000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+<entry
+   name="WorkDao.java"
+   checksum="d743b8b4866a34148119ceb879ab5e9d"
+   last-author="zhu91aizhu"
+   text-time="2013-12-27T11:32:53.455000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2014-03-01T07:08:28.725000Z"/>
+</wc-entries>

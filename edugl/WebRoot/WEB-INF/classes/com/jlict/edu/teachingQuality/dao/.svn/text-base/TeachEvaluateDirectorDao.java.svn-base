@@ -1,0 +1,188 @@
+/**
+ * 
+ */
+package com.jlict.edu.teachingQuality.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.jlict.edu.core.dao.BaseDao;
+import com.jlict.edu.core.dao.PagingJson;
+import com.jlict.edu.core.util.SysLogUtil;
+import com.jlict.edu.manager.dao.DepartmentDetailRowMapper;
+
+/**
+ * <p>Title: com.jlict.edu.teachingQuality.dao.TeachEvaluateDirectorDao.java</p>
+ * <p>Description: </p>
+ * <p>Copyright: Copyright (c) 2013 教务管理系统，吉林化工学院</p>
+ * <p>Company: 吉林化工学院</p>
+ * @author 孟兆祥
+ * @version 1.0
+ */
+@Repository
+public class TeachEvaluateDirectorDao extends BaseDao
+{
+	/**
+	 * 方法名： queryCourses
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月19日 下午3:13:07
+	 * 描述：查询所有可以开启评估的课程
+	 * 参数：grade 需要查询的年级
+	 * 参数：userId 用户ID
+	 * 返回类型 PagingJson
+	 */
+	public PagingJson queryCourses(String year, String month, int grade, String userId, String departmentId, int pageIndex, int pageSize)
+	{
+		PagingJson json = new PagingJson();
+		
+		try
+		{
+			int monthTmp = Integer.parseInt(month);
+			int yearTmp = Integer.parseInt(year);
+			int schoolYear;
+			
+			if(monthTmp >= 2 && monthTmp < 9)
+			{
+				schoolYear = yearTmp - grade;
+			}
+			else
+			{
+				if(monthTmp >= 9)
+				{
+					schoolYear = yearTmp - grade + 1;
+				}
+				else
+				{
+					schoolYear = yearTmp - grade;
+				}
+			}
+ 
+			String countSql = "SELECT COUNT(C.ID) FROM T_CURRICULA C LEFT OUTER JOIN T_EVALUATE_SETTING E ON DEPT_ID = E.DEPARTMENT_ID AND DEPT_ID = ? AND E.YEAR = ?";
+			String listSql = "SELECT C.ID, CODING, NAME, ATTRIBUTE, SORT FROM T_CURRICULA C LEFT OUTER JOIN T_EVALUATE_SETTING E ON DEPT_ID = E.DEPARTMENT_ID AND DEPT_ID = ? AND E.YEAR = ?";
+			Object[] para = {departmentId, schoolYear};
+			
+			json = this.queryPagingList(countSql, listSql, para, pageIndex, pageSize, new EvaluationSettingItemRow());
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("查询可评估课程Dao层出错！", e);
+		}
+		
+		return json;
+	}
+	
+	public PagingJson queryEvaluationsByPanel(String userId)
+	{
+		try
+		{
+			String sql = "SELECT ";
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("查询可评估课程Dao层出错！", e);
+		}
+		
+		return null;
+	}
+	
+	/**
+	 * 方法名： openStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午1:57:15
+	 * 描述：开启课程评估
+	 * 参数：para 说明：TODO
+	 * 返回类型 boolean
+	 */
+	public boolean openStatus()
+	{
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("开启课程评估Dao层出错！", e);
+			return false;
+		}
+		
+		return true;
+	}
+	
+	/**
+	 * 方法名： closeStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午1:58:46
+	 * 描述：关闭课程评估
+	 * 参数：para 说明：TODO
+	 * 返回类型 boolean
+	 */
+	public boolean closeStatus(String evaluationId)
+	{
+		try
+		{
+			String sql = "UPDATE T_EVALUATE_SETTING SET STATUS = 0 WHERE ID = ?";
+			Object[] para = new Object[]{evaluationId};
+			
+			return this.jdbcTemplate.update(sql, para) == 1;
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("关闭课程评估Dao层出错！", e);
+			return false;
+		}
+	}
+	
+	/**
+	 * 方法名： clearStatus
+	 * 建立者： 孟兆祥
+	 * 建立时间：2014年1月20日 下午2:00:06
+	 * 描述：清除课程评估
+	 * 参数：evaluationId：评估ID
+	 * 返回类型 boolean
+	 */
+	@Transactional(propagation=Propagation.REQUIRED)
+	public boolean clearStatus(String evaluationId)
+	{
+		try
+		{
+			String sql = "SELECT EVALUATE_ID FROM T_TEACH_QUALITY WHERE ID = ? AND EVALUATE_CATEGORY = 1";
+			Object[] para = new Object[]{evaluationId};
+			List<String> evaluationIds = this.jdbcTemplate.queryForList(sql, String.class, para);
+			
+			//删除T_TEACH_QUALITY_STU所有符合条件的记录
+			for(String id : evaluationIds)
+			{
+				sql = "DELETE T_TEACH_QUALITY_STU WHERE ID = ?";
+				para[0] = id;
+				this.jdbcTemplate.update(sql, para);
+			}
+			
+			//删除T_TEACH_QUALITY_TEA符合条件的记录
+			sql = "SELECT EVALUATE_ID FROM T_TEACH_QUALITY WHERE ID = ? AND EVALUATE_CATEGORY = 2";
+			para[0] = evaluationId;
+			String id = this.jdbcTemplate.queryForObject(sql, para, String.class);
+			sql = "DELETE T_TEACH_QUALITY_TEA WHERE ID = ?";
+			para[0] = id;
+			this.jdbcTemplate.update(sql, para);
+			
+			//删除T_TEACH_QUALITY所有符合条件的记录
+			sql = "DELETE T_TEACH_QUALITY WHERE EVALUATE_SETTING_ID = ?";
+			para[0] = evaluationId;
+			this.jdbcTemplate.update(sql, para);
+			
+			//删除T_EVALUATE_SETTING符合条件的记录
+			sql = "DELETE T_EVALUATE_SETTING WHERE ID = ?";
+			this.jdbcTemplate.update(sql, para);
+		}
+		catch(Exception e)
+		{
+			SysLogUtil.error("清除课程评估Dao层出错！", e);
+			return false;
+		}
+		
+		return true;
+	}
+}
